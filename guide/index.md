@@ -16,13 +16,14 @@ output:
 <div class="tabContent">
 1. Searching
    1. By term
-      1. [Gene](./Searching/ByTerm/Gene/images_context_help.html)
-      2. Gensor Unit
-      3. Growth Conditions
-      4. Operon
-      5. Regulon
-      6. Sigmulon
-      7. sRNA
+      1. [Gene](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gen)
+      2. [Gensor Unit](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gu)
+      3. [Growth Conditions](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gc)
+      4. [Operon](./Searching/ByTerm/searching-in-regulondb.html#searching-by-operon)
+      5. [Regulon](./Searching/ByTerm/searching-in-regulondb.html#searching-by-regulon)
+      6. [Sigmulon](./Searching/ByTerm/searching-in-regulondb.html#searching-by-sugmulon)
+      7. [sRNA](./Searching/ByTerm/searching-in-regulondb.html#searching-by-srna)
+      8. [Gene REVISAR](./Searching/ByTerm/Gene/images_context_help.html) 
    2. Browsing
       1. Coexpression Browser 
       2. [Gensor Unit Groups](./Searching/Browsing/GensorUnitGroups/gensor-unit-groups.html)
