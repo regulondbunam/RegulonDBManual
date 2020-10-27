@@ -15,7 +15,7 @@ output:
 
 <div class="tabContent">
 1. Searching
-   1. By term
+   1. [By term](./Searching/ByTerm/searching-in-regulondb.html)
       1. [Gene](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gen)
       2. [Gensor Unit](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gu)
       3. [Growth Conditions](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gc)
