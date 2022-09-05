@@ -16,8 +16,8 @@ output:
 <div class="tabContent">
 1. Searching
    1. [By term](./Searching/ByTerm/searching-in-regulondb.html)
-      1. [Gene](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gen)
-      2. [Gene local context Help](./Searching/ByTerm/Gene/images_context_help.html) 
+      1. [Gene](./Searching/searching.html#by-gen)
+      2. [Gene local context Help](./Searching/ByTerm/Gene/gene-local-context.html) 
       3. [Gensor Unit](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gu)
       4. [Growth Conditions](./Searching/ByTerm/searching-in-regulondb.html#searching-by-gc)
       5. [Operon](./Searching/ByTerm/searching-in-regulondb.html#searching-by-operon)
