@@ -6,7 +6,7 @@
 
 ## Installation Guide
 
-Download or copy the content of the following [docker-compose.yml file](https://github.com/regulondbunam/regulondb-app-docker/blob/main/docker-compose.yml) (the repo can be cloned but this is the only file needed)
+Download or copy the content of the following [docker-compose.yml file](https://regulondbdata.ccg.unam.mx/docker/docker-compose.yml).
 
 Locate the file in a terminal and use the following command to get the images required from DockerHub: 
 
