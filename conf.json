@@ -4,6 +4,7 @@
   "sites": [
     {
       "title": "AboutUs",
+      "description": "Information about us, contact us ",
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
