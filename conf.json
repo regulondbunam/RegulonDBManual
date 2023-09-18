@@ -3,6 +3,7 @@
   "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
   "sites": [
     {
+      "_url": "aboutUs",
       "title": "AboutUs",
       "description": "Information about us, contact us ",
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
