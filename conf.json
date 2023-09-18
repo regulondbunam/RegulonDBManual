@@ -29,6 +29,18 @@
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/what-is-regulondb.md"
         }
       ]
+    },
+    {
+      "_url": "apiSoftware",
+      "title": "Api & Software",
+      "description": "Information about us, contact us ",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "title":"Docker",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/api-software/docker.md"
+        }
+      ]
     }
   ]
 }
