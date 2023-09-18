@@ -4,6 +4,7 @@
   "sites": [
     {
       "title": "AboutUs",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
           "title":"developers of RegulonDB",
