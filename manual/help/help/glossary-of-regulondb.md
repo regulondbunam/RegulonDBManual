@@ -9,7 +9,154 @@ output:
     includes:
     css: ../../css/regulondbGlobalStyle.css
     self_contained: yes
+    
 ---
+
+
+# RegulonDB Glossary
+
+
+## Gene
+
+n., [dʒiːn] 
+
+### Definition
+
+1. A region of DNA that encodes at least one functional product.
+2. “DNA region” defined as an extent of DNA greater than zero nucleotides.
+
+
+![](./glossary-of-regulondb-images/genes.png)
+Figure. Graphical representation of DNA region with genes with different size and orientations.
+
+
+
+### Properties
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+| position left | Absolute left position in the genome  | required |  350 |
+| position right| Absolute right position in the genome | required | 1020 |
+| strand | DNA strand where the gene is coded | required | forward /reverse  |
+| dna sequence | dna gene sequence | required | ATGGTGTATG...TAA |
+| name | gene name | optional | araC |
+| synonyms | other names associated to the gene | optional | |
+
+Other optional properties for genes can be queried in the [database model]() of RegulonDB.
+
+### Example
+
+- Gene name: **apaG**
+- Synonyms: 	EG10047
+- Genome position:	 51229 - 51606
+- Size:	378 base pairs
+- Strand:	reverse
+- DNA sequence :
+
+
+```
+>RDBECOLIGNC00043|apaG gene|product:DUF525 domain-containing protein ApaG|size: 378
+ATGATCAATTCGCCCCGAGTGTGTATTCAGGTTCAAAGCGTCTACATTGAGGCTCAATCT
+TCACCTGATAATGAACGTTACGTTTTTGCTTATACCGTAACCATACGCAATCTGGGGCGA
+GCGCCAGTGCAGTTGTTGGGGCGTTACTGGCTGATCACCAATGGCAATGGCCGTGAAACC
+GAAGTCCAGGGCGAAGGAGTGGTTGGCGTCCAGCCACTTATCGCGCCTGGCGAAGAGTAC
+CAGTACACCAGCGGTGCAATCATTGAAACCCCGCTGGGCACCATGCAGGGTCACTACGAA
+ATGATCGATGAAAATGGCGTCCCTTTCAGCATCGACATTCCCGTATTCCGACTCGCCGTT
+CCCACACTCATTCATTAA
+```
+
+### Comments
+
+The gene definition implies continuos DNA segment that carries the information for the structure of at least one functional-RNA or polipeptide chain. If the gene carries the information for more than one product, it means that the gene is composed of overlapping CDSs or overlapping functional-RNA bearer regions.
+
+The definition also is intended to include genes that produce more than one product, e. g. dnaX produces by frameshifting both subunit tau and subunit gamma of the DNA polymerase.
+
+The definition is intended to regard independent cistrons that code for subunits of heteromultimeric proteins as different genes. For example, the cistrons that code for subunits of IHF, ihfA and ihfB, are differente genes.
+
+In the database, genes of the pseudo and phantom types are included, indicating that they were previously considered functional genes but are now categorized as pseudo or phantom for various reasons.
+
+
+### Useful links
+
+- Gene from [Biology Online](https://www.biologyonline.com/dictionary/gene).
+- Gene from [Wikipedia](https://en.wikipedia.org/wiki/Gene)
+
+
+### References
+
+[1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
+
+
+
+## Product
+
+
+### Definition
+
+1. A product is the RNA or protein produced based on the gene template. 
+2. A gene product is the biochemical material, either RNA or protein, resulting from expression of a gene. [2]
+
+<img src="https://www.biologyonline.com/wp-content/uploads/dictionary/images/Gene-function.png" alt="drawing" width="400"/>
+
+Source: [Biology Online](https://www.biologyonline.com/dictionary/gene)
+
+### Properties
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+
+### Comments
+
+The relationship between a gene and its product was originally 1-to-1. However, this relationship was modified to allow a gene to have more than one product, as in the case of infB, copA, and other genes that generate protein isoforms due to alternative or internal start codons.
+
+### Useful links
+
+- Gene product from [wikipedia](https://en.wikipedia.org/wiki/Gene_product)
+
+### References
+
+[2] Article: Gene product Wikipedia. URL: https://en.wikipedia.org/wiki/Gene_product
+
+
+
+## Promoter
+
+
+### Definition
+
+
+### Properties
+
+### Comments
+
+
+### References
+
+
+## Promoter
+
+
+### Definition
+
+
+### Properties
+
+### Comments
+
+
+### References
+
+
+## References
+
+### References
+
+[1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
+
+[2] Article: Gene product Wikipedia. URL: https://en.wikipedia.org/wiki/Gene_product
+
+
+
 <head>
     <script type="text/javascript">
     //alert(document.URL);
