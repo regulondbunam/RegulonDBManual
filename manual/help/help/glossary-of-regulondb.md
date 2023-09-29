@@ -85,6 +85,7 @@ Figure. deoCABD operon region, Genes:4 Promoters:4 Transcription Units:4
 
 [1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
 
+[2] Gene Action – Operon Hypothesis. https://www.biologyonline.com/tutorials/gene-action-operon-hypothesis
 
 <br>
 
@@ -336,7 +337,7 @@ Figure: Transcription unit and operon schematic. When different transcription st
 
 | Property   | Description   |    | Example |
 |:-- |:-- |:-- |:-- |
-| name | transcription unit name | | degQS | 
+| name | transcription unit name |required | degQS | 
 | promoter id | promoter identifier | | | 
 | terminator id | terminator identifier | | | 
 | genes | transcribed genes | | gedQ, gedS | 
@@ -344,7 +345,6 @@ Figure: Transcription unit and operon schematic. When different transcription st
 
 ### Comments
 
-A complex operon with several promoters contains, therefore, several transcription units. According to the definition of operon, at least one transcription unit must include all the genes in the operon. See for instance the rpsU-dnaG-rpoD, glnALG, focA-pflB,
 
 ### References
 
@@ -354,23 +354,25 @@ A complex operon with several promoters contains, therefore, several transcripti
 
 ## Operon
 
-
+ noun, plural: operons
+ 
 ### Definition
 
-1. An operon refers to a set of adjacent genes whose transcription is coordinated by one or several overlapping TUs transcribed in the same direction and that share at least one gene. A simple operon is one in which gene transcription is coordinated through a single TU, while a complex operon is one in which transcription is coordinated through several overlapping TUs, transcribed in the same direction and sharing at least one gene.
+1. An operon refers to a set of adjacent genes whose transcription is coordinated by one or several overlapping TUs transcribed in the same direction and that share at least one gene. A simple operon is one in which gene transcription is coordinated through a single TU, while a complex operon is one in which transcription is coordinated through several overlapping TUs, transcribed in the same direction and sharing at least one gene [1]
 
-2. An operon is a set of one or several genes and their associated regulatory elements, which are transcribed as a single unit. The classical definition of operon is a group of two or more genes transcribed as a polycistronic unit (Jacob and Monod, JMB, 1961). For database purposes only, we extended the definition in order to include the possibility of operons with only one gene. Note: An operon is, therefore, one or more contiguous genes transcribed in the same direction. Please note that, according to this definition, an operon must contain a promoter upstream of all genes and a terminator downstream. It is also relatively common to find operons with several promoters, some of them internally located, thus, transcribing a partial group of genes. In all cases so far, one gene belongs to only one operon.
-
+2. An operon is a set of one or several genes and their associated regulatory elements, which are transcribed as a single unit.
+ 
+3.  A group of genes or a segment of DNA that functions as a single transcription unit. It is comprised of an operator, a promoter, and one or more structural genes that are transcribed into one polycistronic mRNA [2].
 
 
 ### Properties
 
 | Property   | Description   |    | Example |
 |:-- |:-- |:-- |:-- |
-| name | Operon name | | abgABT-ogt|
-| strand |DNA strand where the operon is coded | | reverse |
-| genes | Genes contained in the operon | |abgA,abgB,abgT,ogt |
-| transcriptionUnit(s)| | | |
+| name | Operon name | required | abgABT-ogt|
+| strand |DNA strand where the operon is coded | required | reverse |
+| genes | Genes contained in the operon | required |abgA,abgB,abgT,ogt |
+| transcriptionUnit(s)|  Transcripts in the operon | | |
 
 ### Example
 
@@ -380,29 +382,86 @@ Figure. Examples of simple and complex operon.
 
 ### Comments
 
-### Useful links
+The classical definition of operon is a group of two or more genes transcribed as a polycistronic unit (Jacob and Monod, JMB, 1961). For database purposes only, we extended the definition in order to include the possibility of operons with only one gene. Note: An operon is, therefore, one or more contiguous genes transcribed in the same direction. Please note that, according to this definition, an operon must contain a promoter upstream of all genes and a terminator downstream. It is also relatively common to find operons with several promoters, some of them internally located, thus, transcribing a partial group of genes. In all cases so far, one gene belongs to only one operon.
+
+A complex operon with several promoters contains, therefore, several transcription units. According to the definition of operon, at least one transcription unit must include all the genes in the operon. See for instance the rpsU-dnaG-rpoD, glnALG, focA-pflB.
+
 
 ### References
 
 [1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
 
-
+[2] Operon. https://www.biologyonline.com/dictionary/operon
 
 Regulon, transcription factors, and regulatory interactions
 
 ## Regulatory gene products ( Regulators )
 
-
+ noun, plural: regulators
+ 
 ### Definition
+
 1. Any gene product that increases or decreases the expression of a specific set of genes [1].
 
+2.  A gene that is involved in the production of a substance that controls or regulates the expression of one or more genes, such as the gene that codes for a repressor protein that inhibits the activity of an operator gene [2].
 
-<center><img src="./glossary-of-regulondb-images/regulatory_gene_products.png" alt="drawing" width="600"/></center>
+3.  (general) A substance or process that regulates or controls another, as in a growth regulator that regulates the growth of an organism [3].
 
-<center><img src="./glossary-of-regulondb-images/DksA-ppGpp.png" alt="drawing" width="600"/></center>
+
+
+<center><img src="./glossary-of-regulondb-images/regulators_classification.png" alt="drawing" width="600"/></center>
+Figure. Three types of regulators: Transcription Factors, RNAP centered regulatory gene product and small RNA regulator.
 
 
 ### Properties
+
+
+Regulatory Complex
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+| name | regulator name | required | DNA-binding transcriptional dual regulator AraC |
+| function | Gene expression effect caused by the regulator | required | activator, repressor|
+| abbreviateName | regulator short name | |  AraC |
+| synonyms | regulator synonyms | | |
+| type | regulator type  | |Transcription Factor, small RNA |
+
+
+### Example
+
+### Comments
+
+Regulatory gene products can be classified into two main categories: RNA regulators and regulatory proteins. Moreover, these categories can be further subdivided based on the level at which they act to regulate gene expression or the specific mechanism of regulation. Specifically, the "DNA-binding transcription initiation regulatory protein" class is proposed as a subclass of regulatory proteins that bind to specific DNA sequences to regulate transcription initiation. This class includes TFs, which are regulatory proteins that bind near a promoter and affect transcription initiation at that promoter. It also includes sigma factors, which are regulatory proteins that bind to DNA during transcription initiation and are part of the RNA polymerase holoenzyme, which is essential for specific transcription initiation.
+
+Additionally, another proposed subclass of regulatory proteins involving RNA polymerase, "RNAP-centered regulatory proteins of transcription initiation." These proteins, like DksA, regulate transcription initiation through interaction with the RNAP holoenzyme, also known as σE. Unlike DNA-binding regulatory proteins, the specificity of these proteins is not directly determined by the recognition of specific DNA sequences. 
+
+<center><img src="./glossary-of-regulondb-images/regulators.png" alt="drawing" width="600"/></center>
+Figure. Classification of regulators.
+
+In our conceptual model, we address this diversity of regulators by their modeling into three main classes: gene products, regulatory elements not encoded in the DNA, and their combinations in regulatory complexes. These are the components of RIs and their active and inactive conformations. In this way, we can describe a variety of forms, such as: a) a regulatory gene product that does not require any other element for regulation; b) a regulatory complex formed by one or more regulatory gene products, either of the same or different gene product type or different type (some examples of these complexes are the dimeric AraC, the IHF complex composed of IhfA and IhfB, CRP complexed with cAMP, or CsrA complexed with CsrB RNA); and c) a regulatory effector, such as ppGpp, a metabolite that directly binds to the RNAP holoenzyme.
+
+### References
+
+[1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
+
+[2] Regulatory Gene. https://www.biologyonline.com/dictionary/regulatory-gene
+
+[3] Regulator. https://www.biologyonline.com/dictionary/regulator
+
+
+## Regulatory Interactions
+
+
+### Definition
+
+1. RI is a quadruple interaction (T, R, R-RS, F), where T represents the target, R represents the regulator, R-RS represents the site where the regulator binds and participates in gene regulation, and F represents the function or regulatory effect on the target [1]
+
+### Properties
+
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+
 
 ### Example
 
@@ -412,18 +471,7 @@ Regulon, transcription factors, and regulatory interactions
 Figure. Mechanisms of repression and activation by transcription factors at bacterial promoters.  Source: [https://doi.org/10.1016/j.jmb.2019.04.011](https://doi.org/10.1016/j.jmb.2019.04.011)
 
 
-
-
-Regulatory gene products can be classified into two main categories: RNA regulators and regulatory proteins. Moreover, these categories can be further subdivided based on the level at which they act to regulate gene expression or the specific mechanism of regulation. Specifically, the "DNA-binding transcription initiation regulatory protein" class is proposed as a subclass of regulatory proteins that bind to specific DNA sequences to regulate transcription initiation. This class includes TFs, which are regulatory proteins that bind near a promoter and affect transcription initiation at that promoter. It also includes sigma factors, which are regulatory proteins that bind to DNA during transcription initiation and are part of the RNA polymerase holoenzyme, which is essential for specific transcription initiation.
-
-Additionally, another proposed subclass of regulatory proteins involving RNA polymerase, "RNAP-centered regulatory proteins of transcription initiation." These proteins, like DksA, regulate transcription initiation through interaction with the RNAP holoenzyme, also known as σE. Unlike DNA-binding regulatory proteins, the specificity of these proteins is not directly determined by the recognition of specific DNA sequences. 
-
-
-
-<center><img src="./glossary-of-regulondb-images/regulators.png" alt="drawing" width="600"/></center>
-Figure. Classification of regulators.
-
-In our conceptual model, we address this diversity of regulators by their modeling into three main classes: gene products, regulatory elements not encoded in the DNA, and their combinations in regulatory complexes. These are the components of RIs and their active and inactive conformations. In this way, we can describe a variety of forms, such as: a) a regulatory gene product that does not require any other element for regulation; b) a regulatory complex formed by one or more regulatory gene products, either of the same or different gene product type or different type (some examples of these complexes are the dimeric AraC, the IHF complex composed of IhfA and IhfB, CRP complexed with cAMP, or CsrA complexed with CsrB RNA); and c) a regulatory effector, such as ppGpp, a metabolite that directly binds to the RNAP holoenzyme.
+In RegulonDB version 12.0, these TF binding sites were renamed as transcription factor regulatory sites (TFRSs), since they exert an effect on the regulated promoter, unlike transcription factor binding sites (TFBSs), that may or may not create an effect. This distinction is relevant, since current HT binding methods identify TFBSs as lacking evidence of their regulatory role. In addition to TFs, there are other kinds of regulators, such as sRNAs and metabolites, whose specific binding sites are defined as regulator binding sites (R-BSs), and those with regulatory evidence are defined as regulator regulatory sites (R-RS).
 
 
 ### Useful links
@@ -432,22 +480,6 @@ In our conceptual model, we address this diversity of regulators by their modeli
 
 [1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
 
-
-## t
-
-
-### Definition
-
-
-### Properties
-
-### Example
-
-### Comments
-
-### Useful links
-
-### References
 
 
 ## t
