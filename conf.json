@@ -3,6 +3,18 @@
   "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
   "sites": [
     {
+      "_url": "docker",
+      "title": "Docker",
+      "description": "User guide on how to install RegulonDB Docker on your server",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "title":"RegulonDB Docker",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/api-software/docker.md"
+        },
+      ]
+    },
+    {
       "_url": "aboutUs",
       "title": "AboutUs",
       "description": "Information about us, contact us ",
