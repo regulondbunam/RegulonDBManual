@@ -10,22 +10,27 @@
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
+          "_url": "developers_regulonDB",
           "title":"Developers of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/developers-of-regulondb.md"
         },
         {
+          "_url": "funding",
           "title":"Funding of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/funding-of-regulondb.md"
         },
         {
+          "_url": "licence",
           "title":"Licence of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/license-of-regulonbd.md"
         },
         {
+          "_url": "terms-conditions",
           "title":"Terms and conditions",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/terms-and-conditions.md"
         },
         {
+          "_url": "whats-regulonDB",
           "title":"What is RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/what-is-regulondb.md"
         }
@@ -39,6 +44,7 @@
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
+          "_url": "glossary",
           "title":"Glossary of regulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/help/help/glossary-of-regulondb.md"
         }
@@ -59,6 +65,7 @@
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
+          "_url": "docker",
           "title":"Docker",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/api-software/docker.md"
         }
