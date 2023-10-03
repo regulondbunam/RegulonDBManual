@@ -15,6 +15,18 @@
       ]
     },
     {
+      "_url": "glossary-of-regulondb",
+      "title": "Glossary of regulonDB",
+      "description": "glossary-of-regulondb",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "title":"Glossary of regulonDB",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/help/help/glossary-of-regulondb.md"
+        }
+      ]
+    },
+    {
       "_url": "aboutUs",
       "title": "AboutUs",
       "description": "Information about us, contact us ",
