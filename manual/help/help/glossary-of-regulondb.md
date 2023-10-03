@@ -22,6 +22,11 @@ output:
 1. Transcriptional regulation refers to the mechanisms by which gene expression is controlled at the level of transcription. It involves the regulation of RNA polymerase's ability to transcribe genes into RNA molecules. 
 
 
+#### Acronym and synonyms
+
+
+
+### Description 
 
 **Overview of transcriptional regulation**
 
@@ -102,6 +107,7 @@ n., [dʒiːn]
 ![](./glossary-of-regulondb-images/genes.png)
 Figure. Graphical representation of DNA region with genes with different size and orientations.
 
+#### Acronym and synonyms
 
 
 ### Properties
@@ -173,6 +179,9 @@ In the database, genes of the pseudo and phantom types are included, indicating 
 
 Source: [Biology Online](https://www.biologyonline.com/dictionary/gene)
 
+#### Acronym and synonyms
+
+
 ### Properties
 
 | Property   | Description   |    | Example |
@@ -230,6 +239,9 @@ The relationship between a gene and its product was originally 1-to-1. However, 
 Figure: Graphical representation of a genome region showing one promoter and the caiF gene.
 
 
+#### Acronym and synonyms
+
+
 ### Properties
 
 | Property   | Description   |    | Example |
@@ -285,6 +297,8 @@ noun
 
 <center><img src="./glossary-of-regulondb-images/terminator.png" alt="drawing" width="300"/></center>
 
+#### Acronym and synonyms
+
 
 ### Properties
 
@@ -332,6 +346,11 @@ noun
 <center><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7990032/bin/nihms-1650273-f0005.jpg" alt="drawing" width="400"/></center>
 Figure: Transcription unit and operon schematic. When different transcription start sites (TSSs) from the same promoter are not differentially regulated, they form a single transcription unit that is limited by, but not including, a single promoter and a single terminator. b | Schematic of the gadAXW complex operon. Several internal promoters and terminators enable different sets of genes to be co-transcribed in different Transcription Units.
 
+#### Acronym and synonyms
+
+TU: Transcription Unit
+
+Transcript
 
 ### Properties
 
@@ -364,6 +383,8 @@ Figure: Transcription unit and operon schematic. When different transcription st
  
 3.  A group of genes or a segment of DNA that functions as a single transcription unit. It is comprised of an operator, a promoter, and one or more structural genes that are transcribed into one polycistronic mRNA [2].
 
+#### Acronym and synonyms
+
 
 ### Properties
 
@@ -395,6 +416,7 @@ A complex operon with several promoters contains, therefore, several transcripti
 
 Regulon, transcription factors, and regulatory interactions
 
+
 ## Regulatory gene products ( Regulators )
 
  noun, plural: regulators
@@ -408,15 +430,19 @@ Regulon, transcription factors, and regulatory interactions
 3.  (general) A substance or process that regulates or controls another, as in a growth regulator that regulates the growth of an organism [3].
 
 
+<center><img src="./glossary-of-regulondb-images/regulators.png" alt="drawing" width="600"/></center>
+Figure. Classification of regulators.
 
-<center><img src="./glossary-of-regulondb-images/regulators_classification.png" alt="drawing" width="600"/></center>
-Figure. Three types of regulators: Transcription Factors, RNAP centered regulatory gene product and small RNA regulator.
 
+#### Acronym and synonyms
+
+- Regulatory gene
+- 
+- TF: Transcription Factor. 
+- sRNA: small RNA
 
 ### Properties
 
-
-Regulatory Complex
 
 | Property   | Description   |    | Example |
 |:-- |:-- |:-- |:-- |
@@ -427,16 +453,12 @@ Regulatory Complex
 | type | regulator type  | |Transcription Factor, small RNA |
 
 
-### Example
-
 ### Comments
 
 Regulatory gene products can be classified into two main categories: RNA regulators and regulatory proteins. Moreover, these categories can be further subdivided based on the level at which they act to regulate gene expression or the specific mechanism of regulation. Specifically, the "DNA-binding transcription initiation regulatory protein" class is proposed as a subclass of regulatory proteins that bind to specific DNA sequences to regulate transcription initiation. This class includes TFs, which are regulatory proteins that bind near a promoter and affect transcription initiation at that promoter. It also includes sigma factors, which are regulatory proteins that bind to DNA during transcription initiation and are part of the RNA polymerase holoenzyme, which is essential for specific transcription initiation.
 
 Additionally, another proposed subclass of regulatory proteins involving RNA polymerase, "RNAP-centered regulatory proteins of transcription initiation." These proteins, like DksA, regulate transcription initiation through interaction with the RNAP holoenzyme, also known as σE. Unlike DNA-binding regulatory proteins, the specificity of these proteins is not directly determined by the recognition of specific DNA sequences. 
 
-<center><img src="./glossary-of-regulondb-images/regulators.png" alt="drawing" width="600"/></center>
-Figure. Classification of regulators.
 
 In our conceptual model, we address this diversity of regulators by their modeling into three main classes: gene products, regulatory elements not encoded in the DNA, and their combinations in regulatory complexes. These are the components of RIs and their active and inactive conformations. In this way, we can describe a variety of forms, such as: a) a regulatory gene product that does not require any other element for regulation; b) a regulatory complex formed by one or more regulatory gene products, either of the same or different gene product type or different type (some examples of these complexes are the dimeric AraC, the IHF complex composed of IhfA and IhfB, CRP complexed with cAMP, or CsrA complexed with CsrB RNA); and c) a regulatory effector, such as ppGpp, a metabolite that directly binds to the RNAP holoenzyme.
 
@@ -449,6 +471,55 @@ In our conceptual model, we address this diversity of regulators by their modeli
 [3] Regulator. https://www.biologyonline.com/dictionary/regulator
 
 
+
+## Binding Site and Regulatory Site
+
+noun
+
+
+### Definition
+
+1. TFBS is defined as a DNA site where a TF binds specifically and that the term transcription factor regulatory sites (TFRS) be defined as the subset of TFBSs that are involved in transcription regulation [1].
+
+2. In addition to TFs, there are other kinds of regulators, such as sRNAs and metabolites, whose specific binding sites are defined as regulator binding sites (R-BSs), and those with regulatory evidence are defined as regulator regulatory sites (R-RS).  
+
+
+<center><img src="./glossary-of-regulondb-images/TFBS-RS.png" alt="drawing" width="600"/></center>
+Figure. Graphical representation of Binding Site(s).
+
+
+#### Acronym and synonyms
+
+- BS : Binding Site.  
+- RS: Regulatory Site.   
+- R-BS: Regulator Binding Site.   
+   - TFBS: Transcription Factor Binding Site.  
+   - sRNA-BS: small RNA Binding Site.  
+	
+- R-RS: Regulator Regulatory Site.   
+   - TFRS: Transcription Factor Regulatory Site.   
+   - sRNA-RS: small RNA Regulatory Site.   
+
+
+### Properties
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+| leftEndPosition | Absolute Left Genome Position| | |
+| rightEndPosition | Absolute Right Genome Position| | |
+| sequence | binding site sequence  | | |
+| length | binding site length | | |
+
+
+
+### Comments
+
+
+### References
+
+[1] Mejia-Almonte, C., Busby, S.J.W., Wade, J.T., van Helden, J., Arkin, A.P., Stormo, G.D., Eilbeck, K., Palsson, B.O., Galagan, J.E. and Collado-Vides, J. (2020) Redefining fundamental concepts of transcription initiation in bacteria. Nat Rev Genet, 21, 699-714. [PMID: 32665585](https://pubmed.ncbi.nlm.nih.gov/32665585/)
+
+
 ## Regulatory Interactions
 
 
@@ -456,14 +527,26 @@ In our conceptual model, we address this diversity of regulators by their modeli
 
 1. RI is a quadruple interaction (T, R, R-RS, F), where T represents the target, R represents the regulator, R-RS represents the site where the regulator binds and participates in gene regulation, and F represents the function or regulatory effect on the target [1]
 
+
+<center><img src="./glossary-of-regulondb-images/regulators_classification.png" alt="drawing" width="600"/></center>
+Figure. Three types of regulators: Transcription Factors, RNAP centered regulatory gene product and small RNA regulator.
+
+#### Acronym and synonyms
+
+RI: Regulatory Interaction
+
 ### Properties
 
 
 | Property   | Description   |    | Example |
 |:-- |:-- |:-- |:-- |
+| regulator | | required | |
+| regulated entity  | Transcription unit,  gene (id:name) regulated by the Regulator | required | |
+| function | Gene expression effect caused by the Regulator bound to the RS | | activator, repressor|
+| regulatory site | Regulator Regulatory site (R-RS)  | | |
+| relativeDistRSPromoter  | Relative distance from the center position of RS to the Transcription Start Site | | -20, +45|
 
 
-### Example
 
 ### Comments
 
@@ -482,13 +565,257 @@ In RegulonDB version 12.0, these TF binding sites were renamed as transcription 
 
 
 
-## t
+## Attenuator
+
+noun
+
+### Definition
+
+1.  A control region at the promoter end of repressible amino acid operons that exerts transcriptional control based on the translation of a small leader peptide gene [1]. 
+
+
+<center><img src="./glossary-of-regulondb-images/attenuator3_feature.jpg" alt="drawing" width="30"/>
+<img src="./glossary-of-regulondb-images/attenuator1_feature.JPG" alt="drawing" width="30"/></center>
+Figure. Attenuator graphical representation.
+
+#### Acronym and synonyms
+
+
+### Properties
+
+### Example
+
+The attenuator is adjacent to the structural genes of the trp (tryptophan) operon; in the presence of tryptophan this region acts to reduce the rate of transcription from the structural genes. 
+
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Trp_operon_attenuation.svg/800px-Trp_operon_attenuation.svg.png" alt="drawing" width="400"/></center>
+
+### Comments
+
+Attenuation is a regulatory mechanism for some bacterial operons that results in premature termination of transcription. 
+
+For each predicted operon, the upstream region of the first gene is taken (Figure 1a). For every run of Us present in this region (Figure 1b), a stable structure in the adjacent region is searched for (Figure 1c). If a terminator is found, an anti-terminator is searched for it must be overlapping with the terminator (Figure 1d). An anti-antiterminator can be analogously located by finding a structure that overlaps with the anti-terminator (Figure 1e). For the particular case of translational attenuators, a terminator is searched for that overlaps with the Shine-Dalgarno site.
+
+<center><img src="./glossary-of-regulondb-images/attenuator_prediction_image.png" alt="drawing" width="600"/></center>
+
+
+### Useful links
+
+### References
+
+[1] Attenuator. https://groups.molbiosci.northwestern.edu/holmgren/Glossary/Definitions/Def-A/attenuator.html
+
+
+## GENSOR Unit
+
+noun
+
+### Definition
+
+1. The GENSOR units show the cascade of information processing that begins with the appearance of a signal, its transformation into the metabolite that binds the TF, called an effector, the genetic switch set of the TF binding to its TFRSs, and the response that includes all of the activated or repressed target genes. 
+
+
+<center><img src="./glossary-of-regulondb-images/gensor_unit_feature.jpg" alt="drawing" width="400"/></center>
+Figure. GENSOR unit components and its graphical representation.
+
+#### Acronym and synonyms
+
+GU : Gensor Unit
+
+
+### Properties
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+| GU name | GENSOR Unit name (inherited from the name of the Regulator) | required | AraC, AdiY|
+| Description |  | | |
+| Signal |  | required | |
+| Reactions |  | required | |
+| Components |  | | |
+| Group |  | | |
+
+
+### Example
+
+<center><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013702/bin/gkq1110f2.jpg" alt="drawing" width="400"/></center>
+Figure. AraC-arabinose GU. In the presence of l-arabinose, AraC activates transcription of genes that code for proteins necessary for utilization and transport of l-arabinose. In the absence of glucose CRP coregulates with AraC. The four GU elements are represented by different colors in the image: blue, the signal (i) and signal transduction (ii); yellow, genetic switch (iii); green, the response (iv) [2]. 
+
+
+
+### Comments
+
+The ability of a cell to respond to changes inside the cell or in the environment initiates when the new signal or stimulus is sensed and transmitted through a series of molecular concatenated reactions, called signal transduction or transduction pathways. These events bring into action genetic switches that modify gene expression to produce the adequate response to the cell. We call these processes genetic Sensory Response Units, or Gensor Unit. 
+Gensor Unit is defined by four components: i)the signal or stimulus, ii) the signal transduction pathway, iii) the regulatory mechanisms governing the expression of genes, and iv) the adequate response resulting from the modified gene expression of the affected set of target genes.
+
+
+### References
+
+[1] RegulonDB v12.0
+
+[2] Gama-Castro S, Salgado H, et al. RegulonDB version 7.0: transcriptional regulation of Escherichia coli K-12 integrated within genetic sensory response units (Gensor Units). Nucleic Acids Res. 2011 Jan;39(Database issue):D98-105. doi: 10.1093/nar/gkq1110. Epub 2010 Nov 4. PMID: 21051347; PMCID: PMC3013702.
+
+
+## Riboswitch
 
 
 ### Definition
 
+1. Riboswitches are gene control elements that directly bind to specific ligands to regulate gene expression without the need for proteins. [1]
+
+2. Riboswitches are functional RNA elements that regulate gene expression by directly detecting metabolites. [2]
+
+
+<center><img src="./glossary-of-regulondb-images/riboswitch_feature.jpg" alt="drawing" width="80"/>
+
+Figure. Riboswitch graphical representation in RegulonDB.
+</center>
+
+#### Acronym and synonyms
+
 
 ### Properties
+
+### Example
+
+### Comments
+
+"When the mechanism for riboswitch control of gene expression is done via prevention of translation, the ribosome-binding site (RBS) is blocked upon ligand binding to the aptamer domain and the RNA cannot be translated into a protein. In the absence of the ligand, the RBS is unblocked and therefore the mRNA is translated. In the case of transcriptional termination, alternative terminator or anti-terminator structures are formed that either terminate or promote transcription, respectively (Penchovsky and Stoilova, 2013; Penchovsky and Traykovska, 2015). In the presence of specific ligand that binds to the aptamer domain, a terminator structure is usually formed into the 5′-UTR region, which stops the RNA transcription. In the absence of the ligand, an anti-terminator structure is formed instead of the terminator and, because of that, the complete mRNA is transcribed and translated into a protein. In addition, there is one more cis-acting mechanism of riboswitch control of gene expression, which functions via RNA destabilization. [1]"
+
+"Riboswitches are RNA elements mostly found in the 5′-UTR of bacterial mRNAs, where they sense concentration change of specific metabolites, usually called ligands, and regulate downstream gene expression in cis through tertiary structure changes of mRNAs, the controlled genes are always related to metabolic reaction of ligands [2]". 
+
+<center><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10265488/bin/gr2a.jpg" alt="drawing" width="400"/></center>
+Figure. Two main regulatory mechanisms of riboswitches. (A) Transcriptional level, ribD FMN riboswitch of Bacillus subtilis, (B) Translational level, ypaA FMN riboswitch of B. subtilis. Blue sequence in beige box represents anti-terminator sequence or anti-RBS-sequestor sequence, in pale pink box represents sequence paired with anti-terminator sequence or anti-RBS-sequestor sequence, red sequence represents RBS. Riboswitches regulate gene expression through influencing terminator or RBS structure when bound to ligands [2].
+
+
+
+
+### Useful links
+
+### References
+
+[1] Nikolet Pavlova, Dimitrios Kaloudas, Robert Penchovsky. Riboswitch distribution, structure, and function in bacteria, Gene, 2019, doi: 10.1016/j.gene.2019.05.036.
+	
+[2] Xu J, Hou J, Ding M, Wang Z, Chen T. Riboswitches, from cognition to transformation. Synth Syst Biotechnol. 2023 Jun 3;8(3):357-370. doi: 10.1016/j.synbio.2023.05.008. PMID: 37325181; PMCID: PMC10265488.
+
+
+## Shine Dalgarno
+
+
+### Definition
+
+1. Shine-Dalgarno or Ribosome binding site is the polypurine sequence and its consensus is AGGAGG. It is located on bacterial mRNA, just prior to an AUG initiation codon; it is complementary to the sequence at the 3' end of 16S rRNA; involved in binding of ribosome to mRNA.
+
+
+#### Acronym and synonyms
+
+RBS: Ribosome Binding Site
+
+### Properties
+
+### Example
+
+### Comments
+
+### Useful links
+
+### References
+
+
+## Regulon
+
+
+### Definition
+
+1. Regulon is defined as a set of genes subject to regulation of one and only one regulator (Maas WK , 1964, PMID:14168690). Note: The initial definition was derived from studies of the arginine biosynthetic genes, which were, contrary to operons, found to be scattered (non contiguously located) in the chromosome of E.coli. To better describe the alternative groups of co-regulated genes, we now call this a simple regulon, as opposed to a complex regulon. 
+Complex regulon
+A group of genes subject to regulation by two or more regulators, where all genes are subject to the regulation of exactly the same transcription factors. 
+Strict complex regulon: 
+Complex regulons can still be subdivided into strict complex regulons. A strict complex regulon is a set of genes subject to regulation by two or more transcription factors, where the effect of each regulator (activator or repressor) is the same for all the regulated genes.
+
+### Properties
+
+### Example
+
+### Comments
+
+### Useful links
+
+### References
+
+
+
+## Matrix
+
+
+### Definition
+
+1. A  matrix, weight matrix, or positional weight matrix represents a collection of aligned binding sequences for the same transcriptional regulator. It is a derivative of a multiple alignment of such sites. Each row corresponds to one of the letters of the relevant alphabet -e.g., 4 rows in the case of DNA. Each column corresponds to one of the positions within the aligned sites.  A frequency matrix contains the frequency of the four nucleotides at each position.
+
+
+### Properties
+
+### Example
+
+### Comments
+
+### Useful links
+
+### References
+
+
+
+## Alignment
+
+
+### Definition
+
+1. A multiple alignment with the collection of binding sites for a regulatory protein is generated by using initially extended binding sites. RegulonDB contains such mutiple alignments, generated by using the Wconsensus program (Hertz GZ, Comput Appl Biosci. 1990 Apr;6(2):81-92.)
+
+
+### Properties
+
+### Example
+
+### Comments
+
+### Useful links
+
+### References
+
+
+
+## Growth Condition
+
+
+### Definition
+
+1. Growth conditions are the experimental conditions in which a strain is grown in particular experiments performed to study changes in gene expression.
+
+### Properties
+
+### Example
+
+### Comments
+
+### Useful links
+
+### References
+
+
+## Effector
+
+
+### Definition
+
+1. We call effector in RegulonDB the precise metabolite that binds to the TF, altering its conformation and involved in the switch for the binding-unbinding specifically to its TFBSs sites. Most effectors are metabolites that bind non-covalently to an allosteric TF site. We include as effectors covalent modifications, i.e. phosphorylations for the two component TFs. 
+The literature may be confusing since effectors are also called "signals". A signal in RegulonDB is distinguished clearly from effectors. See GUs for more detail.
+
+### Properties
+
+
+| Property   | Description   |    | Example |
+|:-- |:-- |:-- |:-- |
+
+
 
 ### Example
 
@@ -513,442 +840,3 @@ In RegulonDB version 12.0, these TF binding sites were renamed as transcription 
 [4] Article: Terminator (Genetics) https://en.wikipedia.org/wiki/Terminator_(genetics)
 
 
-<head>
-    <script type="text/javascript">
-    //alert(document.URL);
-    </script>
-    <script> 
-        function send_form(){ 
-           document.form.submit() 
-        } 
-    </script> 
-</head>
-
-<center class="title">
-        <h1>RegulonDB Glossary</h1>
-    </center>
-<div class="centerDivExplorer">
-<div class="centerDiv">
-<font face="Arial, sans-serif"></font>
-<font color="#FF6600"></font>
-&nbsp;
-<table WIDTH="100%" class="table" >
-<thead>
-<tr>
-<th align="center" background="/images/tableHeader.jpeg" class="titleWhite">Term</th>
-<th align="center" background="/images/tableHeader.jpeg" class="titleWhite">Graphic representation in RegulonDB</th>
-<th align="center" background="/images/tableHeader.jpeg" class="titleWhite">Description</th>
-</tr>
-</thead>    
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="es-ES"><b>
-<font face="Arial, sans-serif">Gensor Unit</font></b></div>
-</td>
-<td align="center" valign="Top">
-<img src="./glossary-of-regulondb-images/gensor_unit_feature.jpg" height=180 width=347>
-</td>
-<td align="justify" NOSAVE>
-<div LANG="es-ES" CLASS="western">
-<span class="NormalText">
-<font face="Arial, sans-serif" class="NormalText">
-The ability of a cell to respond to changes inside the cell or in the environment initiates when the new signal or stimulus is sensed and transmitted through a series of molecular concatenated reactions, called signal transduction or transduction pathways. These events bring into action genetic switches that modify gene expression to produce the adequate response to the cell. We call these processes genetic Sensory Response Units, or Gensor Unit.
-<br>
-Gensor Unit is defined by four components: i)the signal or stimulus, ii) the signal transduction pathway, iii) the regulatory mechanisms governing the expression of genes, and iv) the adequate response resulting from the modified gene expression of the affected set of target genes.
-</span>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="es-ES"><b>
-<font face="Arial, sans-serif">Operon</font></b>
-</div>
-</td>
-<td align="center" valign="Top">
-<img src="./glossary-of-regulondb-images/operon_feature.gif" height=100 width=347>
-</td>
-<td align="justify" NOSAVE>
-<div LANG="es-ES" CLASS="western">
-<span class="NormalText">
-<font face="Arial, sans-serif" class="NormalText">
-An <b>operon</b> is a set of one or several genes and their associated regulatory elements, which are transcribed as a single unit. The classical definition of operon is a group of two or more genes transcribed as a polycistronic unit (Jacob and Monod, JMB, 1961). For database purposes only, we extended the definition in order to include the possibility of operons with only one gene.
-Note:  An operon is, therefore, one or more contiguous genes transcribed in the same direction.
-Please note that, according to this definition, an operon must contain a promoter upstream of all genes and a terminator downstream. It is also relatively common to find <B>operons with several promoters</B>, 
-some of them internally located, thus, transcribing a partial group of genes. In all cases so far, one gene belongs to only one operon.
-</font>
-</span>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="es-ES"><b>Transcription
-unit (TU)</b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/tu_feature.gif" height=100 width=321>
-</td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="es-ES">
-<font face="Arial, sans-serif">A<b>Transcription unit </b>is a
-set of one or more genes transcribed from a single promoter. A TU may also include
-regulatory protein binding sites affecting this promoter and a terminator.
-Note: A complex operon with several promoters contains, therefore, several transcription units.  
-According to  the definition of operon, at least one transcription unit must include all the genes in the operon. 
-See for instance the 
-<a href="/search?term=RPSU-DNAG-RPOD&organism=ECK12&type=operon">rpsU-dnaG-rpoD</a>, 
-<a href="/search?term=GLNALG&organism=ECK12&type=operon">glnALG</a>, 
-<a href="/search?term=FOCA-PFLB&organism=ECK12&type=operon">focA-pflB</a>, 
-</font>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" >
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="es-ES"><b>Promoter</b>
-</div>
-</td>
-<td align="center"><img src="./glossary-of-regulondb-images/promoter_feature.GIF" height=102 width=81></td>
-<td align="justify" NOSAVE>
-<div LANG="es-ES" STYLE="margin-bottom: 0cm">
-<p class="NormalText">
-<font face="Arial, sans-serif">A<b>promoter</b> is the
-DNA sequence where RNA polymerase binds and initiates transcription.
-Notes: Promoter sequences are specific to the different sigma factors 
-associated to the RNA polymerase core. A promoter is represented as a 
-stretch of 60 upstream and 20 downstream upper-case nucleotide sequences 
-from the precise initiation of transcription, also called +1.
-</font>
-</p>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP  class="NormalText1" NOSAVE><b>TFs binding sites</b></td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/TF_Binding_feature.gif" height=40 width=71>
-</td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="en-GB">
-<font face="Arial, sans-serif">The<b>
-TFs binding sites </b>are physical DNA sites recognized by transcription
-factors within a genome.
-</font> <br>
-Note: Historically, binding sites for transcriptional regulators were defined as operator sites. 
-There are several meanings of an operator site. Operator sites in their wider meaning are sites 
-for repressors or activators. Later on, the term "activator sites" was opposed to the term "operator sites",  
-that was limited to sites for binding repressor regulators. In bacteria, specifically for Sigma 54 promoters, 
-the term "UAS" for upstream activator sites is also used to refer to activator sites that function remotely. 
-A related term is &quot;enhancers&quot;. An enhancer has been initially defined as an activator site that functions 
-from far upstream, as well as  in either orientations in relation to the promoter.        
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP  class="NormalText1" NOSAVE><b>Gene</b>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/gene_feature.jpg"  height=40 width=70>
-</td>
-<td align="justify" class="NormalText">A <b>gene</b> is the segment of DNA involved in producing a polypeptide
-chain or stable RNA; it includes regions preceding and following the coding
-region (leader and trailer).
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="es-ES"><b>
-<font face="Arial, sans-serif">Transcription Factor (TF)
-</font></b>
-</div>
-</td>
-<td align="center"><img src="./glossary-of-regulondb-images/tf_feature.gif" height=50 width=56></td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="es-ES">
-<font face="Arial, sans-serif">A
-<b>Transcription Factor (TF) or regulatory protein </b>is a protein
-(more precisely a complex protein, since it can be a dimer or multimer)
-that activates or represses the transcription of a TU upon binding to
-specific DNA sites.
-</font>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP class="backGroundGray" NOSAVE>
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">
-<span class="NormalText1"><b>
-<font face="Arial, sans-serif">Riboswitch</font></b>
-</span><b>
-<font face="Arial, sans-serif"></font></b>
-</div>
-</td>
-<td align="center">
-<font color="#F4F4F4"></font>
-<img src="./glossary-of-regulondb-images/riboswitch_feature.jpg" width="76" height="69">
-</td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="en-GB">
-<font face="Arial, sans-serif">A
-<b>Riboswitch </b>
-<p>For each group of orthologous proteins, the upstream regions of the first gene
-of each operon are taken and  searched for motifs using MEME (Figure 1a). Each motif is then refined
-by several cycles of locating it among all upstream regions from all bacteria using MAST, and
-redefining a more specific motif with MEME (Figure 1b). Sequences with motifs can then be analyzed
-to see if they present evidence of conserved secondary structure (Figure 1c). Predicted motifs are
-also compared against the Rfam database to locate known structured elements and against RegulonDB to
-find known transcription factor binding sites.
-</p>
-<p> <a href=""onClick="window.open('/search/jsp/openImage.jsp?img=glossary-of-regulondb-images/riboswitch_prediction_image.png','Riboswitches Prediction Image','width=667,height=260', menubar='no')">Click here to see image.</a>
-</p>
-</font>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP class="backGroundGray" NOSAVE>
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">
-<span class="NormalText1"><b>
-<font face="Arial, sans-serif">Attenuator</font></b>
-</span><b>
-<font face="Arial, sans-serif"></font></b>
-</div></td>
-<td align="center">
-<font color="#F4F4F4"></font>
-<img src="./glossary-of-regulondb-images/attenuator1_feature.JPG" width="24" height="64"><img src="./glossary-of-regulondb-images/attenuator3_feature.jpg" width="21" height="64">
-</td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="en-GB">
-<font face="Arial, sans-serif">An
-<b> Attenuator</b>
-<p>For each predicted operon, the upstream region of the first gene is taken (Figure 1a).
-For every run of Us present in this region (Figure 1b), a stable structure in the adjacent region
-is searched for (Figure 1c). If a terminator is found, an anti-terminator is searched for it
-must be overlapping with the terminator (Figure 1d). An anti-antiterminator can be analogously
-located by finding a structure that overlaps with the anti-terminator (Figure 1e).
-For the particular case of translational attenuators, a terminator is searched for
-that overlaps with the Shine-Dalgarno site.
-</p>
-<a href="" onClick="window.open('/search/jsp/openImage.jsp?img=/menu/using_regulondb/tutorials/project_glossary/images/attenuator_prediction_image.png','Attenuators Prediction Image','width=786,height=321', menubar='no')">Click here to see image.</a> </p>
-</font>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP class="backGroundGray" NOSAVE>
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">
-<span class="NormalText1"><b>
-<font face="Arial, sans-serif">Terminator</font></b>
-</span><b>
-<font face="Arial, sans-serif"></font></b>
-</div>
-</td>
-<td align="center">
-<font color="#F4F4F4"></font>
-<img src="./glossary-of-regulondb-images/terminator_feature.jpg" height=68 width=18>
-</td>
-<td align="justify">
-<div class="NormalText" STYLE="margin-bottom: 0cm" LANG="en-GB">
-<font face="Arial, sans-serif">A
-<b>Terminator </b>is
-the region where transcription ends and RNAP unbinds from DNA.
-</font>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Small RNAs</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/srna_feature.jpg" height=35 width=48>
-</td>
-<td align="justify">
-<span class="NormalText">
-<b>Small RNAs</b> (sRNAs) are RNAs that have a regulatory role in  gene expression.
-These RNAs are around  350 nucleotides and are not translated into protein.
-This kind of RNA was named miRNA in eukaryotes and sRNA in bacteria.
-</span>	  
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP class="NormalText1" NOSAVE><b>Product</b>
-</td>
-<td></td>
-<td align="justify">
-<br>
-<span class="NormalText"> 
-A <b>Product</b> is the RNA or protein produced
-based on the gene template.&nbsp;
-</span>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div class="NormalText1" STYLE="margin-bottom: 0cm" LANG="en-GB"><b>
-<font face="Arial, sans-serif">Shine-Dalgarno</font></b>
-</div>
-</td>
-<td  class="NormalText">
-<div align="center">
-<font face="Arial, sans-serif">ggctagc<b>AGGAGG</b>gcatcac<b>ATG</b></font>
-</div>
-</td>
-<td align="justify">
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">&nbsp;
-<br>
-<span class="NormalText">
-<font face="Arial, sans-serif"><b>Shine-Dalgarno
-or Ribosome binding site</b> is the polypurine sequence
-and its consensus is AGGAGG. It is located on bacterial mRNA, just prior to an AUG initiation codon;
-it is complementary to the sequence at the 3' end of 16S rRNA; involved
-in binding of ribosome to mRNA.
-</font>
-</span>
-</div>
-</td>
-</tr>
-<tr VALIGN=TOP class="backGroundGray" NOSAVE>
-<td NOSAVE>
-<div class="NormalText1"  ><b>
-<font face="Arial, sans-serif">Regulon</font></b>
-</div>
-<div>
-<b>
-<font face="Arial, sans-serif">Simple</font></b>
-</div>
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">
-<b>
-<font face="Arial, sans-serif">Complex</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/regulon_feature.gif" height=120 width=149>
-</td>
-<td align="justify">
-<div LANG="en-GB" STYLE="margin-bottom: 0cm">&nbsp;
-<br>
-<span class="NormalText"></span>
-<span class="NormalText">Regulon is defined as a set of genes subject to regulation of one and only one regulator </span>
-<span class="NormalText">(<a href="http://www.pubmedcentral.gov/articlerender.fcgi?tool=pubmed&pubmedid=7854250">Maas WK</a></span>
-<span class="NormalText">, 1964, PMID:<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=14168690&query_hl=13">14168690</a>).</span> 
-<span class="NormalText">Note: The initial definition was derived from studies of the arginine biosynthetic genes, which were, contrary to operons, found to be scattered (non contiguously located) in the chromosome of<em> E.coli</em>.  To better describe the alternative groups of co-regulated genes, we now call this a simple regulon, as opposed to a complex regulon.
-<br>
-<b>Complex regulon</b><br>
-A group of genes subject to regulation by two or more regulators, where all genes are subject to the regulation of exactly the same transcription factors.
-<br>
-<b>Strict complex regulon: </b><br>
-Complex regulons can still be subdivided into strict complex regulons. A strict complex regulon is a set of genes subject to regulation by two or more transcription factors, where the effect of each regulator (activator or repressor) is the same for all the regulated genes.
-</span>
-</div>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP  class="NormalText1" NOSAVE><b>Matrix</b></td>
-<td  align="center">
-<img src="./glossary-of-regulondb-images/matrix_feature.gif" height=96 width=266>
-</td>
-<td align="justify">
-<br>
-<span class="NormalText">A&nbsp; <b>matrix</b>,
-weight matrix, or positional weight matrix represents a collection of
-aligned binding sequences for the same transcriptional regulator. It is
-a derivative of a multiple alignment of such sites. Each row corresponds
-to one of the letters of the relevant alphabet -e.g., 4 rows in the case
-of DNA. Each column corresponds to one of the positions within the
-aligned sites.&nbsp; A frequency matrix contains the frequency of the
-four nucleotides at each position. 
-</span>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Alignment</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/alignment_feature.gif" height=69 width=148>
-</td>
-<td align="justify">
-<span class="NormalText">A multiple <b>alignment</b> with the collection
-of binding sites for a regulatory protein is generated by using initially
-extended binding sites. RegulonDB contains such mutiple alignments, generated
-by using the Wconsensus program 
-</span>(<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=2193692&query_hl=4" class="linkBlue">Hertz
-GZ, Comput Appl Biosci. 1990 Apr;6(2):81-92.</a>)
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Growth condition</font></b>
-</div>
-</td>
-<td></td>
-<td align="justify">
-<span class="NormalText"><br>
-<font face="Arial, sans-serif"><b>Growth conditions&nbsp;</b>are the
-experimental conditions in which a strain is grown in particular experiments
-performed to study  changes in gene expression.
-</font>
-</span>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Allosteric regulation of RNAP</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/ppGpp_feature.png" height=49 width=70>
-</td>
-<td align="justify">
-<span class="NormalText">The small nucleotide ppGpp (guanosine tetraphosphate) is a global regulator of gene expression in bacteria. This is the effector molecule of the stringent control response.<br>
-DksA: a partner to ppGpp, belongs to a class of bacterial regulators that do not interact with the nucleic acids and instead directly bind in the RNA polymerase.<br>
-DksA cooperates with ppGpp responding to the level of ppGpp to regulate the expression of particular genes. The DksA protein binds directly to RNA polymerase, affecting transcript elongation and augmenting the effect of the alarmone ppGpp on transcription initiation.
-</span>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Incomplete gene</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/cut_gene_feature.png" height=39 width=115>
-</td>
-<td align="justify">
-<span class="NormalText">Incomplete gene (indicated by zig-zag line) contained in a displayed region.
-</span>
-</td>
-</tr>
-<tr class="backGroundGray" NOSAVE>
-<td VALIGN=TOP NOSAVE>
-<div LANG="es-ES" CLASS="NormalText1"><b>
-<font face="Arial, sans-serif">Effector</font></b>
-</div>
-</td>
-<td align="center">
-<img src="./glossary-of-regulondb-images/effector.png" height=23 width=23>
-</td>
-<td align="justify">
-<span class="NormalText">
-We call effector in RegulonDB the precise metabolite that binds to the TF, altering its conformation and involved in the switch for 
-the binding-unbinding specifically to its TFBSs sites. Most effectors are metabolites that bind non-covalently to an allosteric TF 
-site. We include as effectors covalent modifications, i.e. phosphorylations for the two component TFs.
-<br>
-The literature may be confusing since effectors are also called "signals". A signal in RegulonDB is distinguished clearly from 
-effectors. See GUs for more detail.
-</span>
-</td>
-</tr>
-</table>
-</div>
-</div>
