@@ -3,43 +3,59 @@
   "_note": "Before committing please validate the json structure, https://jsonformatter.curiousconcept.com/ ",
   "sites": [
     {
-      "_url": "docker",
-      "title": "Docker",
-      "description": "User guide on how to install RegulonDB Docker on your server",
-      "imgUrl": "https://source.unsplash.com/random?wallpapers",
-      "sections": [
-        {
-          "title":"RegulonDB Docker",
-          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/api-software/docker.md"
-        }
-      ]
-    },
-    {
       "_url": "aboutUs",
       "title": "AboutUs",
-      "description": "Information about us, contact us ",
+      "description": "Information about regulonDB ",
+      "keyWords": "licence contact",
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
-          "title":"developers of RegulonDB",
+          "_url": "developers_regulonDB",
+          "title":"Developers of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/developers-of-regulondb.md"
         },
         {
+          "_url": "funding",
           "title":"Funding of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/funding-of-regulondb.md"
         },
         {
+          "_url": "licence",
           "title":"Licence of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/license-of-regulonbd.md"
         },
         {
+          "_url": "terms-conditions",
           "title":"Terms and conditions",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/terms-and-conditions.md"
         },
         {
+          "_url": "whats-regulonDB",
           "title":"What is RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/what-is-regulondb.md"
         }
+      ] 
+    },
+    {
+       "_url": "help",
+      "title": "Help",
+      "description": "RegulonDB topics help",
+      "keyWords": "licence contact",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
+        {
+          "_url": "glossary",
+          "title":"Glossary of regulonDB",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/help/help/glossary-of-regulondb.md"
+        }
+      ]
+    },
+    {
+      "_url": "overviews",
+      "title": "Overviews",
+      "description": "regulonDB overviews",
+      "imgUrl": "https://source.unsplash.com/random?wallpapers",
+      "sections": [
       ]
     },
     {
@@ -49,6 +65,7 @@
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
+          "_url": "docker",
           "title":"Docker",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/api-software/docker.md"
         }
