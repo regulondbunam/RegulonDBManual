@@ -1,13 +1,36 @@
 # **RegulonDB Search**
 
+[Gene](#by-gene)  
+[Gensor Unit](#by-gu)  
+[Growth Condition](#by-gc)  
+[Operon](#by-operon)  
+[Regulon](#by-regulon)  
+[Sigmulon](#by-sigmulon)  
 
-## By catalog 
-&nbsp;&nbsp;&nbsp;&nbsp;[Gene](#by-gene)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Gensor Unit](#by-gu)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Growth Condition](#by-gc)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Operon](#by-operon)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Regulon](#by-regulon)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Sigmulon](#by-sigmulon)  
+
+## Introduction
+
+The five main Web pages (gene, operon, regulon, sigmulon, and GENSOR units) were redesigned to follow the same structure for a smoother browsing experience. As shown in Figure 8, they provide two options for searching, one using the box on the top right (see component 1 in the figure) when the user knows what object they are looking for, and the other on the left (see component 2 in the figure) that lists all objects to choose from. 
+
+
+<center><img src="./images/searching_options.png
+" alt="drawing" width="700"/></center>
+Figure 8 illustrates the main web components utilized in creating the five key web pages mentioned: 1) The query box. 2) The catalog of elements where users can browse and search for specific items. 3) The object identification properties component. 4) The graphical representation component of the queried object. 5) The navigation menu for moving between sections of the page. 6) The related tools component. 7) The object details component.
+
+
+
+### Searching box
+
+One of the search options is through a search box, which allows you to search for a term (one or more words) in various fields where it can be found. This option is commonly used for identifiers, entity names, synonyms, among others. It also allows the use of logical operators.
+
+| Logic operators | Description |
+|:-- |:-- |
+| OR  | Cuando se quieren hacer múltiples búsquedas en una consulta se utiliza el espacio (‘ ’) entre las palabras a buscar.|
+| AND  | Cuando se quieren hacer búsquedas con múltiples palabras y se espera que estén en el mismo documento debe colocarse comillas escapeadas (‘/”’) a cada palabra. |
+| NOT | Las búsquedas que quieren exceptuar palabras se les coloca un guion medio (‘-’) antes de la palabra a evadir. |
+
+
+
 
 
 ### <a name="by-gene">Gene</a>
