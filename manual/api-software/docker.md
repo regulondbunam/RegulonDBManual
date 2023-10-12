@@ -6,7 +6,7 @@
 
 ## Installation Guide
 
-Download or copy the content of the following [docker-compose.yml file](https://regulondbdata.ccg.unam.mx/docker/docker-compose.yml).
+Download or copy the content of the following [file](https://regulondbdata.ccg.unam.mx/docker/docker-compose.yml) as docker-compose.yml
 
 Locate the file in a terminal and use the following command to get the images required from DockerHub: 
 
