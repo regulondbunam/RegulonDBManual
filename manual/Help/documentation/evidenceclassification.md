@@ -31,24 +31,24 @@ Single evidence is classified into weak or strong evidence (see above), dependin
 
 Promoters are defined in bacteria by the DNA region specifically bound by RNA polymerase to initiate transcription.
 A TSS is the precise first nucleotide that is transcribed, different methods identify promoters or TSSs. They are jointly classified here.
-
-
-
-
-
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-TSS" allowfullscreen></iframe>
 
 2. **Regulatory Interactions**
 
 A regulatory interaction is defined, depending on the type of evidence, as the transcription factor (TF)-regulated gene interaction (TF-gene), or more specifically as the TF-DNA binding site interaction.
 
-
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-ris" allowfullscreen></iframe>
 
 3. **Transcription Factor**
 
 Most dedicated TFs have usually two conformations, one with a non-covalent bound allosteric metabolite, or a covalent phosphorylation (holo conformation), and one as a free protein or multimer (the apo conformation). There are exceptions to this statement. We call functional conformation the one that is capable of binding to its specific binding sites and perform its activation or repression activity. For the sake of functional conformation evidence the experiments below have to be considered with and without effector. 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-TF" allowfullscreen></iframe>
 
 
 4. **Transcription Units**
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-TU" allowfullscreen></iframe>
+
 
 
 
@@ -66,18 +66,16 @@ The downloadable datasets contain all the individual evidence types so users can
 1. **Promoters and transcription start sites (TSSs)**
 
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-TSS" allowfullscreen></iframe>
+
 
 2. **Regulatory interactions**
 
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-ris" allowfullscreen></iframe>
+
 
 
 3. **Transcription units**
 
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://zs7yfm-3000.csb.app/tsv-TU" allowfullscreen></iframe>
 
 
 
