@@ -47,6 +47,11 @@
           "_url": "glossary",
           "title":"Glossary of regulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/help/help/glossary-of-regulondb.md"
+        },
+        {
+          "_url": "evidenceclassification",
+          "title":"Evidence Classification",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/Help/documentation/evidenceclassification.md"
         }
       ]
     },
