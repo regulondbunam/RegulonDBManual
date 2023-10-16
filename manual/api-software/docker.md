@@ -37,4 +37,5 @@ Then to release space for the new images, remove all the previous images using t
 ```bash
 docker system prune -a
 ```
+
 **Warning:** This command will remove all the docker images in your computer, if you use docker for other images than the RegulonDB instance, please use the ```rmi``` command to remove the images one by one
