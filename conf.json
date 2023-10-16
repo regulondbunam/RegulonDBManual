@@ -10,9 +10,9 @@
       "imgUrl": "https://source.unsplash.com/random?wallpapers",
       "sections": [
         {
-          "_url": "developers_regulonDB",
-          "title":"Developers of RegulonDB",
-          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/developers-of-regulondb.md"
+          "_url": "credits",
+          "title":"Credits",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/credits.md"
         },
         {
           "_url": "funding",
