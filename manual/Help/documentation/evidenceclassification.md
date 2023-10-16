@@ -54,7 +54,7 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 
 ####  Stage II. Assignment of confidence level based on additive evidence types
 
-Following the same logic described in (Weiss et al., 2013) we integrate multiple evidence by combining independent types of evidence, with the intention to confirm individual objects and mutually exclude false positives. It follows the same principles of science as applied by wet-lab scientists, where data are confirmed by repetitions on the one hand, and by additional experimental strategies to exclude alternative explanations on the other. This approach allows us to combine classic methods from molecular biology and genomic high throughput (HT) methods.
+Following the same logic described in ([Weiss et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23327937/)) we integrate multiple evidence by combining independent types of evidence, with the intention to confirm individual objects and mutually exclude false positives. It follows the same principles of science as applied by wet-lab scientists, where data are confirmed by repetitions on the one hand, and by additional experimental strategies to exclude alternative explanations on the other. This approach allows us to combine classic methods from molecular biology and genomic high throughput (HT) methods.
 
 Additive evidence (called "cross-validation" in previous releases of RegulonDB) requires that the combined methods are independent, that is, do not share major sources of false positives or common raw materials. In this version the evidence codes were assigned to an evidence group, different evidence groups correspond to independent methods. Evidence codes from the same evidence group cannot be combined to upgrade the object confidence level. Some evidence groups are shared among diverse object types, i.e. EXP-IMP-SITE-MUTATION is associated with regulatory interactions and also with promoters, while other classes are exclusive of an object type.
 
@@ -65,9 +65,41 @@ The downloadable datasets contain all the individual evidence types so users can
 
 1. **Promoters and transcription start sites (TSSs)**
 
+| Additive Evidence Rule  | Evidences|
+|:--      |:--       |
+| **Confirmed Evidence** |    |
+| Additive Evidence (1/9) |	1: (EXP-IMP-SITE-MUTATION) <br> 9: (EXP-IDA-RNA-POLYMERASE-FOOTPRINTING) |
+| Additive Evidence (1/10/7) |	1: (EXP-IMP-SITE-MUTATION) <br> 10: (EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP) <br> 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-AINF-POSITIONAL-IDENTIFICATION, COMP-HINF-POSITIONAL-IDENTIFICATION, COMP-HINF, COMP, COMP-AINF) |
+| Additive Evidence (9/10/7) |	9: (EXP-IDA-RNA-POLYMERASE-FOOTPRINTING) <br> 10: (EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP) <br> 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-AINF-POSITIONAL-IDENTIFICATION, COMP-HINF-POSITIONAL-IDENTIFICATION, COMP-HINF, COMP, COMP-AINF) |
+| **Strong Evidence** | |
+| Additive Evidence (10/7) | 10: (EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP) <br> 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-AINF-POSITIONAL-IDENTIFICATION, COMP-HINF-POSITIONAL-IDENTIFICATION, COMP-HINF, COMP, COMP-AINF) |
+
 
 2. **Regulatory interactions**
 
+| Additive Evidence Rule  | Evidences|
+|:--      |:--       |
+| **Confirmed Evidence** 	| |
+| Additive Evidence (1/2) | 1: (EXP-IMP-SITE-MUTATION) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) |
+| Additive Evidence (4/5/3/1) | 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+| Additive Evidence (7/4/3/1) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+| Additive Evidence (7/5/3/1)  | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+| Additive Evidence(6/4/3/1) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+|Additive Evidence (6/5/3/1) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+| Additive Evidence(7/6/3/1) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 1: (EXP-IMP-SITE-MUTATION) |
+| Additive Evidence (4/5/3/2) | 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) |
+| Additive Evidence (7/4/3/2) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) | 
+| Additive Evidence (7/5/3/2) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) |
+| Additive Evidence (6/4/3/2) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) |
+| Additive Evidence (6/5/3/2) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 5: (EXP-GSELEX) <br>  3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS) |
+| Additive Evidence(7/6/3/2) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) <br> 2: (EXP-IDA-BINDING-OF-PURIFIED-PROTEINS)  |
+| **Strong Evidence** | |
+| Additive Evidence(4/5/3) | 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 5: (EXP-GSELEX) <br>  3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
+| Additive Evidence(7/4/3) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
+| Additive Evidence(7/5/3) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 5: (EXP-GSELEX) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
+| Additive Evidence (6/4/3) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 4: (EXP-CHIP-PCR-MANUAL, EXP-CHIP-CHIP-MANUAL, EXP-CHIP-EXO-MANUAL, EXP-CHIP-SEQ-MANUAL, EXP-CHIP-CHIP, EXP-CHIP-EXO, EXP-CHIP-SEQ) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
+| Additive Evidence(6/5/3) | 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 5: (EXP-GSELEX) <br>  3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
+| Additive Evidence(7/6/3) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 6: (EXP-IDA-BINDING-OF-CELLULAR-EXTRACTS) <br> 3: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
 
 3. **Transcription units**
 

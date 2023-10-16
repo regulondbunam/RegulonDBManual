@@ -1,19 +1,5 @@
----
-title: ""
---author: "RegulonDB Team"
---date: '02/07/2020'
-output:
-  html_document:
-    fig_caption: yes
-    highlight: zenburn
-    includes:
-    css: ../css/regulondbGlobalStyle.css
-    self_contained: yes
----
+# Credits
 
-<div style="text-align: center"> 
-<h1>Credits</h1>
-</div>
 
 
 This page summarizes the different contributors to the RegulonDB project.
@@ -21,29 +7,26 @@ This page summarizes the different contributors to the RegulonDB project.
 - [Dr. Julio Collado Vides.](http://www.ccg.unam.mx/en/ComputationalGenomics) **Project Leader.**
 
   
+### Biocuration Team
 
-__Biocuration Team__
+- [Mc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
+- [Dr. Paloma Lara Figueroa](https://orcid.org/0000-0002-0532-0949)
+- [Fanny A. Flores-Gallegos](https://orcid.org/0009-0002-5738-0262)
 
-- Mc. Socorro Gama Castro
-- Mc. Alberto Santos Zavaleta
-- Victor Hugo Tierrafria Pulido 
+### Software and Infrastructure Team
 
+- [Heladia Salgado](https://orcid.org/0000-0002-3166-5801) ( Project manager)
+- [Gabriel Alarcón-Carranza](https://orcid.org/0000-0002-7512-4337) ( Web Developer)
+- [Andrés G. López-Almazo](https://orcid.org/0000-0002-8739-705X) ( Datamarts and Web Service Developer)
+- [Felipe Betancourt-Figueroa](https://orcid.org/0000-0001-7781-1125) ( DB Developer)
+- [Shirley Alquicira Hernández](https://orcid.org/0000-0002-4709-2008) ( FAIR data and software - partial time)
+- [Víctor del Moral Chávez](https://orcid.org/0000-0003-2015-3779) (Manager of information technology infrastructure - partial time)
+- [César Bonavides Martínez](https://orcid.org/0000-0003-4966-138X) (Information technology assistant - partial time)
+- [Jair García Sotelo](https://orcid.org/0000-0002-9462-2737) (Developer - partial time)
 
+### Our data Contributors
 
-**Software and Infrastructure Team**
-
-- Heladia Salgado Osorio (Project manager)
-- Luis José Muñiz Rascado (Database administrator)
-- Pablo  Peña Loredo (Developer - full time)
-- Jair García Sotelo (Developer - partial time)
-- Kevin Alquicira Hernández (Developer - partial time)
-- Shirley Alquicira Hernández (Developer - partial time)
-- Víctor del Moral Chávez (Manager of information technology infrastructure - partial time)
-- César Bonavides Martínez (Information technology assistant - partial time)
-
-### Our data Contributors {#collaborator-of-regulondb}
-
-__Experimental and curated datasets__
+#### Experimental and curated datasets
 
 - Each release RegulonDB updates data on functional annotation and coordinates of genes and functional annotation of products from EcoCyc database.
 - The active and inactive Transcription Factor Conformations were provided by Dr. Yalbi Balderas Martínez (PMID:23776535).
@@ -53,7 +36,7 @@ __Experimental and curated datasets__
 - The small RNA curated dataset is mantained by Dr. Irma Martínez Flores.
 - The coexpression matrix of genes and the coexpresion browser is a contribution of Lucie Pannier.
 
-__Computational Predictions__
+#### Computational Predictions
 
 - The transcription factor binding site (TFBSs) predictions, the transcription factor weight matrix datasets and the TFBSs evolutionary conservation were and have been updated by Dr. Alejandra Medina Rivera (PMID: 20923783).
 - The promoter predictions and the promoter evolutionary conservation come from Dr. Araceli Huerta Moreno (PMID: 14529615).
@@ -61,27 +44,28 @@ Operon predictions come from our collaborator Dr. Gabriel Moreno Hagelsieb (PMID
 - The set of transcriptional attenuators in E. coli comes from Dr. Enrique Merino (PMID:15851059).
 - A set of predicted riboswitches ( RNA sequence that can adopt two structural arrangements, one of which has a transcription terminator or inhibitor of translation initiation) were provided by Dr. Cei Abreu.
 
-__Our tool Collaborators__
+#### Our tool Collaborators
 
 - The cluster analysis of PWMs and the Transcription Factor Family Browser was provided by Jaime Castro Mondragon.
 -The tool that integrates metabolism and transcriptional regulation of transcription factors called gensor unit was developed by Daniela Ledezma.
 
-__External Collaborators__
+#### External Collaborators
 
 - Dr. Ingrid Keseler (SRI International)
 
-### Advisors in Gene Regulation {#advisors-of-regulondb}
+### Advisors in Gene Regulation
 
 The advisors contribute to supervise the quality of the data curated into the database, and help to adress specific issues of their expertise.
 
 - Dr. Steve Busby (University of Birgminham, UK)
 - Dr. Jacques van Helden (Aix-Marseille Université, France)
-- Dr. Rick Gourse (University of Wisconsin)
+
 
 ## PAST contributors
 
 **Past Advisors in Gene Regulation**
 
+- Dr. Rick Gourse (University of Wisconsin) 
 - Dr. Rob Gunsalus (University of California, Los Angeles)
 - Dr. Jim Hu (Texas A&M University)
 - Dr. Sankar Adhya (National Institute of Health)
@@ -91,6 +75,8 @@ The advisors contribute to supervise the quality of the data curated into the da
 
 **Past Biocurators**
 
+- Victor Hugo Tierrafria Pulido 
+- Mc. Alberto Santos Zavaleta
 - M.Sc. David A. Velázquez-Ramírez
 - Dr. Ma. Cecilia Ishida G.
 - M.Sc. José Manuel Camacho-Zaragoza
@@ -101,6 +87,9 @@ The advisors contribute to supervise the quality of the data curated into the da
 
 **Past Developers**
 
+- Luis José Muñiz Rascado (Database administrator)
+- Pablo  Peña Loredo (Developer - full time)
+- Kevin Alquicira Hernández (Developer - partial time)
 - Hilda Solano Lira
 - Liliana Porrón Sotelo
 - Gerardo Salgado Osorio
@@ -116,4 +105,7 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Agustino Martínez Antonio
 - Dr. Sarath Chandra Janga
 - Dr. Denis Thieffry
+
+
+
 
