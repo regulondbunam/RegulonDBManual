@@ -20,6 +20,11 @@
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/funding-of-regulondb.md"
         },
         {
+          "_url": "howToCite",
+          "title":"How to cite",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/cite.md"
+        },
+        {
           "_url": "licence",
           "title":"Licence of RegulonDB",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/AboutUs/license-of-regulonbd.md"
