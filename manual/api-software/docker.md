@@ -3,7 +3,7 @@
 
 ## Required Software
 
-- [Docker](https://docs.docker.com/desktop/install/)
+- [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Installation Guide
