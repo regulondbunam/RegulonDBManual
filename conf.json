@@ -57,6 +57,11 @@
           "_url": "evidenceclassification",
           "title":"Evidence Classification",
           "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/Help/curation/evidenceclassification.md"
+        },
+        {
+          "_url": "cookiePolicy",
+          "title":"COOKIE POLICY",
+          "rawUrl": "https://raw.githubusercontent.com/regulondbunam/RegulonDBManual/master/manual/Help/help/COOKIE_POLICY.md"
         }
       ]
     },
