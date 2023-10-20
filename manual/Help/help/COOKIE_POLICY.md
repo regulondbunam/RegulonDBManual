@@ -22,7 +22,7 @@ The information obtained refers, for example, to the number of pages visited, th
 
 You can get more information about cookies, information about privacy, or check the description of the type of cookies used, their main characteristics, expiration period, etc., at the following link(s):
 
-Google Analytics: https://developers.google.com/analytics
+Google Analytics: [https://developers.google.com/analytics](https://developers.google.com/analytics)
 
 The entity(ies) responsible for providing cookies may share this information with third parties, provided that the law requires it or a third party processes this information for these entities.
 
@@ -30,12 +30,12 @@ The entity(ies) responsible for providing cookies may share this information wit
 
 RegulonDB Escherichia coli K-12 Transcriptional Regulatory Network incorporates social media plugins, which allow access to them from the Website. For this reason, social media cookies may be stored in the User's browser. The owners of these social networks have their own data protection and cookie policies, and they are themselves responsible for their own files and privacy practices in each case. The User should refer to them to learn about these cookies and, if applicable, the processing of their personal data. For informational purposes only, the following links are provided where these privacy and/or cookie policies can be consulted:
 
-- Facebook: https://www.facebook.com/policies/cookies/
-- Twitter: https://twitter.com/es/privacy
-- Instagram: https://help.instagram.com/1896641480634370?ref=ig
-- YouTube: https://policies.google.com/privacy?hl=es-419&gl=mx
-- Pinterest: https://policy.pinterest.com/es/privacy-policy
-- LinkedIn: https://www.linkedin.com/legal/cookie-policy?trk=hp-cookies
+- Facebook: [https://www.facebook.com/policies/cookies/](https://www.facebook.com/policies/cookies/)
+- Twitter: [https://twitter.com/es/privacy](https://twitter.com/es/privacy)
+- Instagram: [https://help.instagram.com/1896641480634370?ref=ig](https://help.instagram.com/1896641480634370?ref=ig)
+- YouTube: [https://policies.google.com/privacy?hl=es-419&gl=mx](https://policies.google.com/privacy?hl=es-419&gl=mx)
+- Pinterest: [https://policy.pinterest.com/es/privacy-policy](https://policy.pinterest.com/es/privacy-policy)
+- LinkedIn: [https://www.linkedin.com/legal/cookie-policy?trk=hp-cookies](https://www.linkedin.com/legal/cookie-policy?trk=hp-cookies)
 
 ## Disable, Reject, and Delete Cookies
 
