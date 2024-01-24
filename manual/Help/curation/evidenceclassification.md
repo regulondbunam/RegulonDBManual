@@ -39,7 +39,8 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 
 <br>
 
-<table><thead><tr>  <th>Confidence Level</th><th>Evidence Name</th><th>3)evidence_code</th><th>4)evidence_category</th><th>5)evidence_group</th><th>6)object_type</th><th>
+<table><thead>
+<tr>  <th>Confidence Level</th><th>Evidence Name</th><th>Evidence Code<th> <th>Evidence Category</th><th>Evidence Group</th><th>Object Type</th><th>
 </th></tr></thead><tbody id="data-table">  <tr>    <td>S</td>    <td>Site mutation</td>    <td>EXP-IMP-SITE-MUTATION</td>    <td>Classical binding</td>    <td>1</td>    <td>Promoter;Regulatory Interactions;Transcription Factors </td>    <td>
 </td>  </tr>  <tr>    <td>S</td>    <td>Transcription initiation mapping</td>    <td>EXP-IDA-TRANSCRIPTION-INIT-MAPPING</td>    <td>Classical experiment</td>    <td>15</td>    <td>Promoter </td>    <td>
 </td>  </tr>  <tr>    <td>S</td>    <td>RNA polymerase footprinting</td>    <td>EXP-IDA-RNA-POLYMERASE-FOOTPRINTING</td>    <td>Classical experiment</td>    <td>9</td>    <td>Promoter </td>    <td>
@@ -78,7 +79,7 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 </td>  </tr>  <tr>    <td>W</td>    <td>Non-traceable author statement</td>    <td>AS-NAS</td>    <td>non-experimental</td>    <td></td>    <td>Promoter;Transcription Units;Regulatory Interactions </td>    <td>
 </td>  </tr>  <tr>    <td>W</td>    <td>Inferred by a human based on computational evidence</td>    <td>COMP-HINF</td>    <td>non-experimental</td>    <td>7</td>    <td>Promoter;Transcription Units;Regulatory Interactions;Transcription Factors </td>    <td>
 </td>  </tr>  <tr>    <td>W</td>    <td>in vitro transcription reconstitution assay evidence</td>    <td>EXP-IDA-IN-VITRO-TRANSCRIPTION</td>    <td>Classical expression</td>    <td>8</td>    <td>Promoter </td>    <td>
-</td>  </tr>  <tr>    <td>W</td>    <td>High-throughput transcription initiation mapping</td>    <td>EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP</td>    <td>High-throughput protocol</td>    <td>10</td>    <td>Promoter</td>    <td></td>  </tr> </tbody>. 
+</td>  </tr>  <tr>    <td>W</td>    <td>High-throughput transcription initiation mapping</td>    <td>EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP</td>    <td>High-throughput protocol</td>    <td>10</td>    <td>Promoter</td>    <td></td>  </tr> </tbody>
 </table> 
 
 <br>
@@ -107,7 +108,7 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 
 <br>
 
-<table><thead><tr>      <th>Confidence Level</th>    <th>Evidence Name</th>    <th>3)evidence_code</th>    <th>4)evidence_category</th>    <th>5)evidence_group</th>    <th>6)object_type</th>    <th>
+<table><thead><tr>      <th>Confidence Level</th>    <th>Evidence Name</th>    <th>Evidence Code</th>    <th>Evidence Category</th>    <th>Evidence Group</th>    <th>Object Type</th>    <th>
 </th></tr></thead><tbody id="data-table">  <tr>            <td>S</td>            <td>Inferred by functional complementation</td>            <td>EXP-IGI-FUNC-COMPLEMENTATION</td>            <td>Classical experiment</td>            <td></td>            <td>Transcription Factors </td>            <td>
 </td>      </tr>  <tr>            <td>S</td>            <td>Site mutation</td>            <td>EXP-IMP-SITE-MUTATION</td>            <td>Classical binding</td>            <td>1</td>            <td>Promoter;Regulatory Interactions;Transcription Factors </td>            <td>
 </td>      </tr>  <tr>            <td>S</td>            <td>Assay of protein purified to homogeneity from a heterologous host</td>            <td>EXP-IDA-PURIFIED-PROTEIN-HH</td>            <td>Classical experiment</td>            <td></td>            <td>Transcription Factors </td>            <td>
@@ -179,13 +180,16 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 ###  Stage II. Assignment of confidence level based on additive evidence types
 
 Following the same logic described in ([Weiss et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23327937/)) we integrate multiple evidence by combining independent types of evidence, with the intention to confirm individual objects and mutually exclude false positives. It follows the same principles of science as applied by wet-lab scientists, where data are confirmed by repetitions on the one hand, and by additional experimental strategies to exclude alternative explanations on the other. This approach allows us to combine classic methods from molecular biology and genomic high throughput (HT) methods.
+<br>
 
 Additive evidence (called "cross-validation" in previous releases of RegulonDB) requires that the combined methods are independent, that is, do not share major sources of false positives or common raw materials. In this version the evidence codes were assigned to an evidence group, different evidence groups correspond to independent methods. Evidence codes from the same evidence group cannot be combined to upgrade the object confidence level. Some evidence groups are shared among diverse object types, i.e. EXP-IMP-SITE-MUTATION is associated with regulatory interactions and also with promoters, while other classes are exclusive of an object type.
+<br>
 
 Objects that are supported by multiple types of independent weak (W) evidence are classified as strong evidence (S). A third confidence score "confirmed"(C) is assigned to objects that are supported by two types of independent strong evidence. In the table below are indicated the combinations of evidence groups that result in upgrade to strong or confirmed confidence level of an object. i.e. the combination (8/10/7) results in a confirmed confidence level; it happens when the object has at least one evidence code from the evidence groups 8, 10 and 7.
 
 The downloadable datasets contain all the individual evidence types so users can either construct their own combinations or use the three confidence levels (W,S,C). 
 
+<br>
 
 #### 1. Promoters and transcription start sites (TSSs)
 
@@ -201,6 +205,7 @@ The downloadable datasets contain all the individual evidence types so users can
 | **Strong Evidence** | |
 | Additive Evidence (7/10) | 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-AINF-POSITIONAL-IDENTIFICATION, COMP-HINF-POSITIONAL-IDENTIFICATION, COMP-HINF, COMP, COMP-AINF)  <br>  10: (EXP-IDA-HPT-TRANSCR-INIT-M-RACE-MAP)|
 
+<br>
 
 ####  2. Regulatory interactions
 
@@ -245,6 +250,7 @@ The downloadable datasets contain all the individual evidence types so users can
 | Additive Evidence(5/7/8) | 5: (EXP-GSELEX) <br>  7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br> 8: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY) |
 | Additive Evidence (6/7/8) | 6: (HTP-HDA-DAP-SEQ) <br> 7: (COMP-HINF-SIMILAR-TO-CONSENSUS, COMP-AINF-PATTERN-DISCOVERY, COMP-AINF-SIMILAR-TO-CONSENSUS, COMP-HINF, COMP, COMP-AINF, COMP-HINF-PATTERN-DISCOVERY) <br>  8: (EXP-IEP-GENE-EXPRESSION-ANALYSIS, EXP-IEP, EXP-IEP-RNA-SEQ, EXP-IEP-MICROARRAY)  |
 
+<br>
 
 #### 3. Transcription Untis
 
