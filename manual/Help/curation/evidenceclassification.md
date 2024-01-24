@@ -167,7 +167,9 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 <br>
 <br>
 
+
 #### 4. Transcription Units  
+
 
 | Confidence Level | Evidence Name                                                            | Evidence Code                                 | Evidence Category          | Evidence Group | Object Type                                                                 |
 |------------------|--------------------------------------------------------------------------|-----------------------------------------------|----------------------------|:----------------:|-----------------------------------------------------------------------------|
@@ -193,8 +195,7 @@ Most dedicated TFs have usually two conformations, one with a non-covalent bound
 | W                | Inferred by curator                                                      | IC                                            | non-experimental           |                | Promoter;Transcription Units;Regulatory Interactions                        |
 | W                | Products of adjacent genes in the same biological process                | IC-ADJ-GENES-SAME-BIO-PROCESS                 | non-experimental           |                | Transcription Units                                                         |
 | W                | No biological data available                                             | ND                                            | non-experimental           |                | Transcription Units                                                         |
-|                  | Northern blot for transcription unit length determination evidence       | EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN |                            | 11             | Transcription Units                                                         |
-
+|                  | Northern blot for transcription unit length determination evidence       | EXP-IDA-TRANSCRIPT-LEN-DETERMINATION-NORTHERN |                            | 11             | Transcription Units                         |
 
 
 <br>
