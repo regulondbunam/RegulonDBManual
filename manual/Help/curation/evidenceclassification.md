@@ -40,8 +40,8 @@ A TSS is the precise first nucleotide that is transcribed, different methods ide
 <br>
 
 <table><thead>
-<tr>  <th>Confidence Level</th><th>Evidence Name</th><th>Evidence Code<th> <th>Evidence Category</th><th>Evidence Group</th><th>Object Type</th><th>
-</th></tr></thead><tbody id="data-table">  <tr>    <td>S</td>    <td>Site mutation</td>    <td>EXP-IMP-SITE-MUTATION</td>    <td>Classical binding</td>    <td>1</td>    <td>Promoter;Regulatory Interactions;Transcription Factors </td>    <td>
+<tr><th>Confidence Level</th><th>Evidence Name</th><th>EvidenceCode</th><th>Evidence Category</th><th>Evidence Group</th><th>Object Type</th><th></th>
+</tr></thead><tbody id="data-table">  <tr>    <td>S</td>    <td>Site mutation</td>    <td>EXP-IMP-SITE-MUTATION</td>    <td>Classical binding</td>    <td>1</td>    <td>Promoter;Regulatory Interactions;Transcription Factors </td>    <td>
 </td>  </tr>  <tr>    <td>S</td>    <td>Transcription initiation mapping</td>    <td>EXP-IDA-TRANSCRIPTION-INIT-MAPPING</td>    <td>Classical experiment</td>    <td>15</td>    <td>Promoter </td>    <td>
 </td>  </tr>  <tr>    <td>S</td>    <td>RNA polymerase footprinting</td>    <td>EXP-IDA-RNA-POLYMERASE-FOOTPRINTING</td>    <td>Classical experiment</td>    <td>9</td>    <td>Promoter </td>    <td>
 </td>  </tr>  <tr>    <td>W</td>    <td>Traceable author statement to experimental support</td>    <td>EXP-TAS</td>    <td>non-experimental</td>    <td></td>    <td>Promoter;Transcription Units;Regulatory Interactions </td>    <td>
