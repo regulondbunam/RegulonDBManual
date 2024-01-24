@@ -252,7 +252,7 @@ The downloadable datasets contain all the individual evidence types so users can
 
 <br>
 
-#### 3. Transcription Untis
+#### 3. Transcription Units
 
 | Additive Evidence Rule  | Evidences|
 |:--      |:--       |
