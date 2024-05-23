@@ -10,7 +10,7 @@ This page summarizes the different contributors to the RegulonDB project.
   
 ### Biocuration Team
 
-- [Mc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
+- [M.Sc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
 
 - [Dr. Paloma Lara Figueroa](https://orcid.org/0000-0002-0532-0949)
 
