@@ -1,18 +1,77 @@
-# What is RegulonDB
 
+# What is RegulonDB?
 
-**RegulonDB** is a model of the regulation of transcription initiation and the regulatory network in *Escherichia coli* K-12. It includes knowledge of the organization of the genes in transcription units, operons and simple and complex regulons.
-</p>
+**RegulonDB** is a comprehensive and expertly curated knowledge base dedicated to the transcriptional regulatory network of *Escherichia coli* K-12, a model organism in molecular biology and systems biology. It has been developed and maintained by the *Computational Genomics Program* at the **Centro de Ciencias Genómicas (UNAM)** for over two decades.
 
-![](images/coli.png)
+## 🎯 Purpose and Mission
 
-*Highly detailed and incomplete knowledge jointly modeled*. An important aspect to keep in mind in order to avoid misunderstandings in the content of a database, is the fact that the current characterization of different genes, operons and regulatory mechanisms, is quite variable. For some genes, their mechanisms are very well described, whereas in most cases, our current knowledge is partial. For instance, the regulation of many promoters is still unknown, or a well characterized promoter may be upstream of a poorly characterized operon or transcription unit. Our definitions and conventions affect not only the way well-characterized systems are described, but also the way the lack of information is as precisely as possible encoded in the database.
+RegulonDB provides a **gold-standard reference** of experimentally supported regulatory elements in *E. coli*, serving as a reliable resource for:
 
+- Understanding the architecture of bacterial gene regulation
+- Supporting the development and validation of computational models
+- Enabling reproducible and interoperable analyses in genomics
 
-To this already complex picture, we have to add the more recent high throughput experimentally determined pieces of the network, that sometimes challenge our classic paradigms.
+Its mission is to organize and disseminate high-quality regulatory knowledge in a structured, computable format that meets the needs of both experimental and computational researchers.
 
+## 📦 What It Contains
 
-*A limited and up to date curation*. We strive to maintain curation up to date. However, due to different methodological reasons, we are far from encoding all knowledge available on mechanisms of transcription initiation. 
+RegulonDB integrates detailed information on:
 
+- Genes, operons, promoters, and transcription units  
+- Transcription factors (TFs) and their binding sites  
+- Regulatory interactions and transcription start sites (TSSs)  
+- **GENSOR Units** — signal-to-response modules linking environmental signals, TFs, regulated genes, and their functional outcomes  
+
+Each item is annotated with specific **evidence codes**, capturing the method (e.g., EMSA, footprinting, RNA-seq, ChIP-seq) and strength of support (strong, weak, confirmed). Data are derived from peer-reviewed scientific literature and undergo manual curation by domain experts.
+
+## 🔬 Curation and Methodology
+
+RegulonDB follows a robust, transparent data lifecycle that includes:
+
+- Extraction of regulatory data from primary literature  
+- Normalization and quality control of molecular entities  
+- Annotation using **controlled vocabularies** and **biological ontologies**  
+- Traceability to experimental conditions and original publications  
+
+The database distinguishes between classical and high-throughput (HT) data, integrating HT results (e.g., TSSs, TFBSs from ChIP-seq) only when they meet criteria for functional relevance or cross-validation.
+
+## 🧠 Scientific and Technological Impact
+
+With over **2,400 citations** in **more than 600 journals**, RegulonDB is a cornerstone in:
+
+- 🧬 Systems biology and network inference  
+- 🧠 Gene expression and promoter analysis  
+- 🤖 Machine learning and AI model validation  
+- 🧪 Synthetic biology and bioengineering  
+- 📊 Comparative genomics and predictive modeling  
+
+It is used globally by researchers in **microbiology**, **bioinformatics**, **computational biology**, **data science**, and **education**, and it plays a central role in validating tools, training models, and benchmarking pipelines.
+
+## 🌐 Access and Tools
+
+RegulonDB provides:
+
+- A user-friendly **web interface** with interactive visualizations  
+- Advanced search and query tools  
+- **Downloadable datasets** for both curated and HT data  
+- **Integration with external databases** such as EcoCyc  
+- Support for **APIs** and reproducible workflows  
+
+The database is maintained with frequent updates and remains aligned with community standards.
 
 ![](images/overview.png)
+
+## 🔁 FAIR Principles
+
+RegulonDB adheres to the **FAIR principles**:
+
+- **Findable**: Persistent identifiers, structured metadata  
+- **Accessible**: Open-access data and downloadable content  
+- **Interoperable**: Use of standardized vocabularies and formats  
+- **Reusable**: Clear licensing, provenance, and evidence-level tagging  
+
+---
+
+RegulonDB continues to evolve as a foundational tool for decoding gene regulation and as a driver of innovation in computational biology and beyond.
+
+
