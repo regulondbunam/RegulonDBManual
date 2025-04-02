@@ -1,14 +1,16 @@
 # Credits
 
-
+This page provides recognition to the individuals and teams who have contributed to the development, maintenance, and continued success of the RegulonDB project. Their collaborative work spans biocuration, software development, scientific guidance, and infrastructure support.
 
 This page summarizes the different contributors to the RegulonDB project.
 
+## Project Leadership
+
 - [Dr. Julio Collado Vides.](http://www.ccg.unam.mx/en/ComputationalGenomics) **Project Leader.**
 
- <b>
+ 
   
-### Biocuration Team
+## Biocuration Team
 
 - [M.Sc. Socorro Gama Castro](https://orcid.org/0000-0001-7708-5143)
 
@@ -16,9 +18,9 @@ This page summarizes the different contributors to the RegulonDB project.
 
 - [Fanny A. Flores-Gallegos](https://orcid.org/0009-0002-5738-0262)
 
-<b>
 
-### Software and Infrastructure Team
+
+## Software and Infrastructure Team
 
 - [Heladia Salgado](https://orcid.org/0000-0002-3166-5801) ( Project manager)
 
@@ -41,11 +43,18 @@ This page summarizes the different contributors to the RegulonDB project.
 - [César Bonavides Martínez](https://orcid.org/0000-0003-4966-138X) (Information technology assistant)
 
 
-<b>
 
-### Our Contributors
+## Scientific Advisory Team
 
-<b>
+
+- x
+- x
+
+
+## Acknowledgments
+
+We are grateful to all contributors, past and present, who have supported RegulonDB with their expertise, commitment, and creativity. Your dedication ensures the ongoing growth and excellence of this project.
+
 
 #### Experimental and curated datasets
 
@@ -69,7 +78,6 @@ This page summarizes the different contributors to the RegulonDB project.
 
 - [ChIP-seq Datasets and PipeLine](https://github.com/PGC-CCG/SnakeChunks). A library based on the snakemake workflow management system, which was used to design a generalizable workflow to perform reproducible ChIP-seq analyses was developed by **Claire Rioualen**. 
 
-<b>
 
 #### Computational Predictions
 
@@ -84,7 +92,7 @@ This page summarizes the different contributors to the RegulonDB project.
 
 - Operon predictions come from our collaborator Dr. Gabriel Moreno Hagelsieb (PMID:12169563).
 
-<b>
+
 
 #### Our tool Collaborators
 
@@ -93,7 +101,7 @@ This page summarizes the different contributors to the RegulonDB project.
  
 - The tool that integrates metabolism and transcriptional regulation of transcription factors called gensor unit was developed by Dr. Daniela Ledezma.
 
-<b>
+
 
 #### Other collaborators
 
@@ -102,13 +110,12 @@ This page summarizes the different contributors to the RegulonDB project.
 
 - **Claire Rioualen** designed the "Bacteria and the operon regulation image"  shown on the main page of RegulonDB. The image is licesed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
-<b>
+
 
 #### External Collaborators
 
 - Dr. Ingrid Keseler (SRI International)
 
-<b>
 
 ### Advisors in Gene Regulation
 
@@ -117,7 +124,6 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Steve Busby (University of Birgminham, UK)
 - Dr. Jacques van Helden (Aix-Marseille Université, France)
 
-<b>
 
 ## PAST contributors
 
@@ -132,9 +138,6 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Tyrrell Conway (Advanced Center for Genome Technology, Oklahoma University)
 
 
-<b>
-
-
 #### Past Biocurators
 
 - Victor Hugo Tierrafria Pulido 
@@ -147,7 +150,6 @@ The advisors contribute to supervise the quality of the data curated into the da
 - Dr. Irma Martínez Flores
 - Mónica Peñaloza Spínola
 
-<b>
 
 **Past Developers**
 
