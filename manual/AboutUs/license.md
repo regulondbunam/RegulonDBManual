@@ -61,7 +61,7 @@ Software components, visualization tools, and custom scripts developed as part o
 This license allows broad reuse and modification of the source code, including in commercial contexts, provided that the original copyright notice is preserved.
 
 Source code is available on our GitHub repository:  
-**https://github.com/RegulonDB**
+**https://github.com/regulondbunam/**
 
 If your intended use involves adapting or integrating our tools into external platforms, we encourage proper attribution and welcome collaboration.
 
