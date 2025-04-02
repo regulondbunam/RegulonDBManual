@@ -2,6 +2,8 @@
 
 If you use **RegulonDB** in your research, presentations, or other academic work, please cite the following most recent publication:
 
+<br>
+
 ## 📌 Main publication
 
 > **Heladia Salgado**, **Socorro Gama-Castro**, **Paloma Lara**, **Citlalli Mejia-Almonte**, **Gabriel Alarcón-Carranza**, **Andrés G. López-Almazo**, **Felipe Betancourt-Figueroa**, **Pablo Peña-Loredo**, **Shirley Alquicira-Hernández**, **Daniela Ledezma-Tejeida**, **Lizeth Arizmendi-Zagal**, **Francisco Méndez-Hernández**, **Ana K. Díaz-Gómez**, **Elizabeth Ochoa-Praxedis**, **Luis J. Muñiz-Rascado**, **Jair S. García-Sotelo**, **Fanny A. Flores-Gallegos**, **Laura Gómez**, **César Bonavides-Martínez**, **Víctor M. del Moral-Chávez**, **Alfredo J. Hernández-Álvarez**, **Alberto Santos-Zavaleta**, **Salvador Capella-Gutiérrez**, **Josep Lluís Gelpí**, **Julio Collado-Vides**  
@@ -10,6 +12,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 📌 DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
 
 
+<br>
 
 ## 📚 Example Citations in Different Styles
 
@@ -33,7 +36,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 }
 ```
 
-
+<br>
 
 ## 🧬 How to Cite Downloaded Datasets
 
@@ -47,7 +50,7 @@ You may also include the main publication reference, for example:
 
 > Salgado et al., 2023. *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_. https://doi.org/10.1093/nar/gkad1072. Data downloaded from: https://regulondb.ccg.unam.mx/download/
 
-
+<br>
 
 ## 🕰️ Need to cite a previous version?
 
