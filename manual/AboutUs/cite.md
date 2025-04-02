@@ -9,7 +9,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 *Nucleic Acids Research*, 2023; gkad1072.  
 📌 DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
 
----
+
 
 ## 📚 Example Citations in Different Styles
 
@@ -33,7 +33,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 }
 ```
 
----
+
 
 ## 🧬 How to Cite Downloaded Datasets
 
@@ -47,7 +47,7 @@ You may also include the main publication reference, for example:
 
 > Salgado et al., 2023. *RegulonDB v12.0: A comprehensive resource of transcriptional regulation in _E. coli_ K-12*. _Nucleic Acids Research_. https://doi.org/10.1093/nar/gkad1072. Data downloaded from: https://regulondb.ccg.unam.mx/download/
 
----
+
 
 ## 🕰️ Need to cite a previous version?
 
