@@ -9,12 +9,12 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 > **Heladia Salgado**, **Socorro Gama-Castro**, **Paloma Lara**, **Citlalli Mejia-Almonte**, **Gabriel Alarcón-Carranza**, **Andrés G. López-Almazo**, **Felipe Betancourt-Figueroa**, **Pablo Peña-Loredo**, **Shirley Alquicira-Hernández**, **Daniela Ledezma-Tejeida**, **Lizeth Arizmendi-Zagal**, **Francisco Méndez-Hernández**, **Ana K. Díaz-Gómez**, **Elizabeth Ochoa-Praxedis**, **Luis J. Muñiz-Rascado**, **Jair S. García-Sotelo**, **Fanny A. Flores-Gallegos**, **Laura Gómez**, **César Bonavides-Martínez**, **Víctor M. del Moral-Chávez**, **Alfredo J. Hernández-Álvarez**, **Alberto Santos-Zavaleta**, **Salvador Capella-Gutiérrez**, **Josep Lluís Gelpí**, **Julio Collado-Vides**  
 **RegulonDB v12.0: a comprehensive resource of transcriptional regulation in _E. coli_ K-12**  
 *Nucleic Acids Research*, 2023; gkad1072.  
-📌 DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
+DOI: [https://doi.org/10.1093/nar/gkad1072](https://doi.org/10.1093/nar/gkad1072)
 
 
 <br>
 
-## 📚 Example Citations in Different Styles
+## Example Citations in Different Styles
 
 **APA:**
 
@@ -38,7 +38,7 @@ If you use **RegulonDB** in your research, presentations, or other academic work
 
 <br>
 
-## 🧬 How to Cite Downloaded Datasets
+## How to Cite Downloaded Datasets
 
 If you downloaded data directly from RegulonDB (e.g., in JSON, TSV, or GFF formats), please cite the database along with the specific version and download URL. Here is a suggested format:
 
@@ -52,7 +52,7 @@ You may also include the main publication reference, for example:
 
 <br>
 
-## 🕰️ Need to cite a previous version?
+## Need to cite a previous version?
 
 Please check our [version history](https://regulondb.ccg.unam.mx/releasesNote) to find older releases and their corresponding publications. If your work used a version prior to v12.0, we recommend citing the specific version and the appropriate publication.
 
