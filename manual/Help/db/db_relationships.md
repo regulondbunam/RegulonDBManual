@@ -1,10 +1,10 @@
-# Cross-Database Relationships in RegulonDB
+# External Database Relationships in RegulonDB
 
 This document summarizes how **RegulonDB** connects with other biodata resources through curated hyperlinks and data dependencies, based on visual evidence from several internal web pages.
 
 <br>
 
-## 1. External Cross References on Gene Pages
+## 1. External References on Gene Pages
 
 ![](./gene-webpage-externaldblinks.png)
 *Figure. Gene web page with links to external references.*
