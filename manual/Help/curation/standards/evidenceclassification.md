@@ -2,6 +2,7 @@
 
 Scientific knowledge advances incrementally. At any point, we base broad conclusions on assertions of varying degrees of confidence. RegulonDB classifies evidence supporting particular assertions essentially based on the methods used to generate them. We do so to make explicit the complex mixture of more or less well supported specific claims that support broader conclusions (Weiss et al., 2013) In RegulonDB version 11.1 we made several changes to the collection of evidence types. We made changes to the evidence codes to make them more informative and more precise since we indicate the corresponding method. We increased the number of high throughput evidence types. Finally, we updated the collection of combinations of independent methods that increase the confidence levels. The details can be found in the sections on additive evidence below.
 
+
 <br>
 
 ## Evidence supporting knowledge as ’Weak’, ’Strong ’ or ’Confirmed ’.
