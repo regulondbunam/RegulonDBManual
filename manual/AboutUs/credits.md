@@ -44,13 +44,6 @@ This page summarizes the different contributors to the RegulonDB project.
 
 
 
-## Scientific Advisory Team
-
-
-- x
-- x
-
-
 ## Acknowledgments
 
 We are grateful to all contributors, past and present, who have supported RegulonDB with their expertise, commitment, and creativity. Your dedication ensures the ongoing growth and excellence of this project.
