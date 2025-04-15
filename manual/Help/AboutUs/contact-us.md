@@ -21,10 +21,10 @@ We are open to collaborative proposals and opportunities to expand our research 
 
 ## Mailing Address
 
-RegulonDB Team  
-Programa de Genómica computacional
+**Dr. Julio Collado Vides**.  
+Programa de Genómica computacional  
 Centro de Ciencias Genómicas  
 Avenida Universidad s/n
-Col. chamilpa
-Universidad Nacional Autónoma de México  
-Cuernavaca, Morelos, Mexico
+Col. Chamilpa   
+Universidad Nacional Autónoma de México    
+Cuernavaca, Morelos, México.
