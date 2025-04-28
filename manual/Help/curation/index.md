@@ -14,7 +14,7 @@
 > Lista conocimientos, herramientas y accesos necesarios para curar datos.
 
 
-## 🛠️ [3 bis. Herramientas de Curación](#3-bis-herramientas-de-curación)
+## 🛠️ [4. Herramientas de Curación](#4-herramientas-de-curación)
 > Describe las plataformas Lisen & Curate y EcoCyc usadas para capturar datos.
 
 - [3.1 Lisen & Curate](#31-lisen--curate)
@@ -40,6 +40,12 @@
 - [6.1 Tipos de Tecnologías](#61-tipos-de-tecnologías)
 - [6.2 Extracción y Selección de Datasets](#62-extracción-y-selección-de-datasets)
 - [6.3 Anotación de Resultados](#63-anotación-de-resultados)
+
+## [7. Using Microbial Condition Ontology (MCO) for Curation](#mco-in-gc-curation)
+- [What is the MCO?](#what-is-mco)
+- [How to annotate experimental conditions using MCO terms](#gc-using-mco)
+- [Practical examples of condition annotation](#example-gc)
+- [Impact of precise conditions on regulation interpretation](#impact-mco)
 
 
 ## 🛡️ [7. Control de Calidad y Validación](#7-control-de-calidad-y-validación)
